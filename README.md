@@ -2,6 +2,9 @@
 
 ## From LearnOpenGL
 
+- gold
+- grass
+- plastic
 - rusted_iron
 - env/newport_loft.hdr
 
