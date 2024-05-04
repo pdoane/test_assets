@@ -13,7 +13,8 @@ torch.manual_seed(98172356)
 
 num_samples = 10000
 num_pixels = 784
-num_hidden = 50
+num_hidden1 = 100
+num_hidden2 = 40
 
 images_file = '../mnist/t10k-images.idx3-ubyte'
 labels_file = '../mnist/t10k-labels.idx1-ubyte'
@@ -24,17 +25,24 @@ labels = idx2numpy.convert_from_file(labels_file).copy()
 x_train = torch.from_numpy(images).float().reshape(num_samples,num_pixels) * (1/255.)
 y_train = torch.tensor(labels, dtype=torch.long)
 
-model = nn.Sequential(nn.Linear(num_pixels,num_hidden), nn.ReLU(), nn.Linear(num_hidden,10))
+model = nn.Sequential(
+    nn.Linear(num_pixels,num_hidden1), 
+    nn.BatchNorm1d(num_hidden1),
+    nn.ReLU(), 
+    nn.Linear(num_hidden1,num_hidden2), 
+    nn.BatchNorm1d(num_hidden2),
+    nn.ReLU(), 
+    nn.Linear(num_hidden2,10))
 loss_func = F.cross_entropy
-lr = 0.2
+lr = 0.4
 
 def accuracy(out, yb): return (out.argmax(dim=1)==yb).float().mean()
 
 def report(loss, preds, yb): print(f'{loss:.2f}, {accuracy(preds, yb):.2f}')
 
 def fit():
-    bs = 64
-    epochs = 2
+    bs = 500
+    epochs = 10
     for epoch in range(epochs):
         for i in range(0, num_samples, bs):
             s = slice(i, min(num_samples,i+bs))
@@ -61,5 +69,6 @@ print("w1.T:", w1.T, "b1", b1)
 
 print ("l1 manual actications:", xs@w1.T + b1)
 
-safe_utils.save(model)
+safe_utils.save(model, "mnist2.safetensors")
+
 

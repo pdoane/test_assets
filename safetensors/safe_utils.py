@@ -57,8 +57,8 @@ def print_tensors(tensors):
     	if len(tensor.shape) == 2: print(tensor[0, 0:6])
 
 
-def save(model):
+def save(model, filename):
     flat_model = flatten_model(model)
     tensors = get_tensors(flat_model)
-    save_model(tensors, "mnist.safetensors")
+    save_model(tensors, filename)
     print_tensors(tensors)
