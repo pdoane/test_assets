@@ -44,6 +44,9 @@ def get_tensors(flat_model):
             pname = name + str(pidx)
             tensors[pname] = p.to('cpu')
             pidx += 1
+        if type(l) == torch.nn.BatchNorm1d:
+            tensors[name + "2"] = l.running_mean
+            tensors[name + "3"] = l.running_var
     return tensors
 
 def save_model(tensors, filename):

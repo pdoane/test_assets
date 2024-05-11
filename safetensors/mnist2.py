@@ -27,10 +27,10 @@ y_train = torch.tensor(labels, dtype=torch.long)
 
 model = nn.Sequential(
     nn.Linear(num_pixels,num_hidden1), 
-    nn.BatchNorm1d(num_hidden1),
+    nn.BatchNorm1d(num_hidden1, momentum=None),
     nn.ReLU(), 
     nn.Linear(num_hidden1,num_hidden2), 
-    nn.BatchNorm1d(num_hidden2),
+    nn.BatchNorm1d(num_hidden2, momentum=None),
     nn.ReLU(), 
     nn.Linear(num_hidden2,10))
 loss_func = F.cross_entropy
@@ -38,11 +38,11 @@ lr = 0.4
 
 def accuracy(out, yb): return (out.argmax(dim=1)==yb).float().mean()
 
-def report(loss, preds, yb): print(f'{loss:.2f}, {accuracy(preds, yb):.2f}')
+def report(loss, preds, yb, dur): print(f'{loss:.2f}, {accuracy(preds, yb):.2f} {dur:.2f}ms')
 
 def fit():
     bs = 500
-    epochs = 10
+    epochs = 20
     for epoch in range(epochs):
         for i in range(0, num_samples, bs):
             s = slice(i, min(num_samples,i+bs))
@@ -53,7 +53,7 @@ def fit():
             with torch.no_grad():
                 for p in model.parameters(): p -= p.grad * lr
                 model.zero_grad()
-        report(loss, preds, yb)
+        report(loss, preds, yb, 0)
 
 fit()
 
@@ -71,4 +71,21 @@ print ("l1 manual actications:", xs@w1.T + b1)
 
 safe_utils.save(model, "mnist2.safetensors")
 
+import timeit
 
+def forward():
+    start = timeit.default_timer()
+    bs = 64
+    epochs = 10
+    for epoch in range(epochs):
+        estart = timeit.default_timer()
+        for i in range(0, num_samples, bs):
+            s = slice(i, min(num_samples,i+bs))
+            xb,yb = x_train[s],y_train[s]
+            preds = model(xb)
+            loss = loss_func(preds, yb)
+        report(loss, preds, yb, (timeit.default_timer() - estart)*1000)
+    duration = (timeit.default_timer() - start)*1000
+    print(f"forward time: {duration:.2f}ms", )
+
+forward()
