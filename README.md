@@ -20,3 +20,6 @@ version 4 of the License, or (at your option) any later version.
 ## safetensors
  - generated from pytorch test notebooks.
 
+## makemore
+ - base on makemore video tutorial. https://github.com/karpathy/makemore 
+ 
