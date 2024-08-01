@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "name": "text",
+        "comment": "first test asset",
+        "type": "pe.text",
+        "version": 1
+    },
+    "i": 55,
+    "str": "Something goes here to display"
+}
