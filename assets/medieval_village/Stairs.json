@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "stairs",
+    "comment": "medieval cart",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/Stairs.fbx"
+}

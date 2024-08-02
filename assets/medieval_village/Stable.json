@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "stable",
+    "comment": "medieval cart",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/Stable.fbx"
+}

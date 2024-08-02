@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "window_4",
+    "comment": "medieval cart",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/Window_4.fbx"
+}

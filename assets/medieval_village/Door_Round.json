@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "Door_Round",
+    "comment": "medieval cart",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/Door_Round.fbx"
+}

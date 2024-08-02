@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "marketStand_2",
+    "comment": "medieval cart",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/MarketStand_2.fbx"
+}

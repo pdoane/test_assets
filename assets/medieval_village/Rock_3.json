@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "rock",
+    "comment": "medieval cart",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/Rock_3.fbx"
+}

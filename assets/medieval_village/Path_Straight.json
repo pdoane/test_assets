@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "path_straight",
+    "comment": "medieval cart",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/Path_Straight.fbx"
+}

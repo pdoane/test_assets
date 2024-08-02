@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "sawmill",
+    "comment": "medieval sawmill",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/Sawmill.fbx"
+}

@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "name": "bonfire",
+    "comment": "medieval cart",
+    "type": "pe.mesh",
+    "version": 1
+  },
+  "fbxSource": "medieval_village/meshes/Bonfire.fbx"
+}
