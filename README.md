@@ -33,3 +33,7 @@ version 4 of the License, or (at your option) any later version.
 ## medieval_village
 
 Medieval Village Pack by Quaternius via Poly Pizza - https://poly.pizza/bundle/Medieval-Village-Pack-NsHhjhlrfY
+
+## mixamo
+
+https://www.mixamo.com/
