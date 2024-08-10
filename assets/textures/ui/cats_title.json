@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "name": "cats_title",
+        "comment": "cats_title image",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "colorTexture": "textures/ui/cats_title.png"
+}

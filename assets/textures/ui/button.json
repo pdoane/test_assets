@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "name": "button",
+        "comment": "default button",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "colorTexture": "textures/ui/button.png"
+}

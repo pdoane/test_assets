@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "name": "frame",
+        "comment": "default frame",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "colorTexture": "textures/ui/frame.png"
+}

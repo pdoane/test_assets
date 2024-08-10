@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "name": "cats_icon",
+        "comment": "cats_icon button",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "colorTexture": "textures/ui/cats_icon.png"
+}

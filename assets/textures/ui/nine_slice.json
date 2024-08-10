@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "name": "nine_slice",
+        "comment": "default nine_slice button",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "colorTexture": "textures/ui/nine_slice.png"
+}

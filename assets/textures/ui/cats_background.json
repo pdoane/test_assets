@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "name": "cats_background",
+        "comment": "cats_background image",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "colorTexture": "textures/ui/cats_background.png"
+}

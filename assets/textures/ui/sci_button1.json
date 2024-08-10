@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "name": "sci_button1",
+        "comment": "scifi button",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "colorTexture": "textures/ui/sci_button1.png"
+}
