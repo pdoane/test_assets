@@ -5,5 +5,7 @@
         "type": "pe.texture",
         "version": 1
     },
-    "colorTexture": "textures/ui/cats_icon.png"
+    "family": "bc",
+    "type": "color",
+    "images": ["textures/ui/cats_icon.png"],
 }
