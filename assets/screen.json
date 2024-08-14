@@ -1,0 +1,64 @@
+{
+    "meta": {
+        "name": "firstUi",
+        "comment": "",
+        "type": "pe.ui.asset",
+        "version": 1
+    },
+    "screen": {
+        "$type": "UiScreen",
+        "screenTitle": "Some Title UI Text",
+        "position": [30, 55],
+        "size": [212, 213],
+        "alignment": "center",
+        "sizingPolicy": "fill_parent",
+        "children": [
+            {
+                "$type": "UiRectWindow",
+                "position": [10, 10],
+                "size": [50, 30],
+                "color": {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0,
+                    "a": 255
+                },
+                "borderWidth": 0
+            },
+            {
+                "$type": "UiImageWindow",
+                "position": [188, 188],
+                "textureAsset": "textures/ui/sci_button1.png",
+                "uv1": [0,0],
+                "uv2": [1,1],
+                "children": [
+                    {
+                        "$type": "UiCircleWindow",
+                        "position": [333, 170],
+                        "radius": 44,
+                        "color": {
+                            "r": 25,
+                            "g": 127,
+                            "b": 0,
+                            "a": 255
+                        },
+                    },
+                    {
+                        "$type": "UiTextWindow",
+                        "position": [180, 110],
+                        "text": "From An Asset",
+                        "fontStyle": "font1",
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        },
+                    }            
+                ],
+            }            
+        ],
+        "title": "",
+        "screenId": 0
+    }
+}
