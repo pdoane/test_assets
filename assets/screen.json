@@ -28,7 +28,7 @@
             {
                 "$type": "UiImageWindow",
                 "position": [188, 188],
-                "textureAsset": "textures/ui/sci_button1.png",
+                "textureAsset": "textures/ui/sci_button1.tex",
                 "uv1": [0,0],
                 "uv2": [1,1],
                 "children": [
