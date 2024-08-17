@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "name": "wall_mrao_bc",
+        "comment": "",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "family": "bc",
+    "type": "mrao",
+    "images": [
+        "textures/wall/wall_metallic.png",
+        "textures/wall/wall_roughness.png",
+        "textures/wall/wall_ao.png"
+    ],
+}

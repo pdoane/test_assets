@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "name": "rusted_iron_color_bc",
+        "comment": "",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "family": "bc",
+    "type": "normal",
+    "images": ["textures/rusted_iron/rusted_iron_albedo.png"],
+}

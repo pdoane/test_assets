@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "name": "rusted_iron",
+        "comment": "",
+        "type": "pe.material.pbr",
+        "version": 1
+    },
+    "albedo": "textures/rusted_iron/rusted_iron_color.tex",
+    "normal": "textures/rusted_iron/rusted_iron_normal.tex",
+    "mrao": "textures/rusted_iron/rusted_iron_mrao.tex",
+}

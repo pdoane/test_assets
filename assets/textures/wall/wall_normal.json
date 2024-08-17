@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "name": "wall_normal_bc",
+        "comment": "",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "family": "bc",
+    "type": "normal",
+    "images": ["textures/wall/wall_normal.png"],
+}

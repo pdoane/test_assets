@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "name": "grass_normal_bc",
+        "comment": "",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "family": "bc",
+    "type": "normal",
+    "images": ["textures/grass/grass_normal.png"],
+}

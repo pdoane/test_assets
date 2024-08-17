@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "name": "grass",
+        "comment": "",
+        "type": "pe.material.pbr",
+        "version": 1
+    },
+    "albedo": "textures/grass/grass_color.tex",
+    "normal": "textures/grass/grass_normal.tex",
+    "mrao": "textures/grass/grass_mrao.tex",
+}

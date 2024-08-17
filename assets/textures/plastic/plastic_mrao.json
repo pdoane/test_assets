@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "name": "plastic_mrao_bc",
+        "comment": "",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "family": "bc",
+    "type": "mrao",
+    "images": [
+        "textures/plastic/plastic_metallic.png",
+        "textures/plastic/plastic_roughness.png",
+        "textures/plastic/plastic_ao.png"
+    ],
+}

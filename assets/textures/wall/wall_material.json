@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "name": "wall",
+        "comment": "",
+        "type": "pe.material.pbr",
+        "version": 1
+    },
+    "albedo": "textures/wall/wall_color.tex",
+    "normal": "textures/wall/wall_normal.tex",
+    "mrao": "textures/wall/wall_mrao.tex",
+}

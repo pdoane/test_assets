@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "name": "gold_mrao_bc",
+        "comment": "",
+        "type": "pe.texture",
+        "version": 1
+    },
+    "family": "bc",
+    "type": "mrao",
+    "images": [
+        "textures/gold/gold_metallic.png",
+        "textures/gold/gold_roughness.png",
+        "textures/gold/gold_ao.png"
+    ],
+}
