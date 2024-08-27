@@ -7,6 +7,7 @@
     },
     "screen": {
         "$type": "UiScreen",
+        "path": "screen",
         "screenTitle": "Some Title UI Text",
         "position": [ 30, 55 ],
         "size": [ 212, 213 ],
@@ -15,6 +16,7 @@
         "children": [
             {
                 "$type": "UiGridLayout",
+                "path": "grid1",
                 "position": [ 10, 40 ],
                 "size": [ 400, 400 ],
                 "gridCells": [ 3, 3 ],
@@ -23,6 +25,7 @@
                 "children": [
                     {
                         "$type": "UiRectWindow",
+                        "path": "rect1",
                         "position": [ 10, 10 ],
                         "size": [ 50, 30 ],
                         "color": {
@@ -34,47 +37,52 @@
                         "borderWidth": 0
                     },
                     {
-                        "$type": "UiRectWindow",
+                        "$type": "UiButton",
+                        "path": "testButton1",
                         "position": [ 30, 50 ],
                         "size": [ 50, 30 ],
+                        "text": "buy",
+                        "fontStyle": "font1",
+                        "click": "/buy 5 apple",
                         "color": {
-                            "r": 255,
-                            "g": 0,
-                            "b": 0,
-                            "a": 255
-                        },
-                        "borderColor": {
                             "r": 255,
                             "g": 255,
                             "b": 255,
                             "a": 255
-                        },                        
-                        "borderWidth": 10
+                        },
                     },
                     {
-                        "$type": "UiRectWindow",
-                        "position": [ 50, 90 ],
+                        "$type": "UiButton",
+                        "path": "testButton2",
+                        "position": [ 30, 50 ],
                         "size": [ 50, 30 ],
+                        "text": "buy1",
+                        "fontStyle": "font1",
+                        "click": "buy",
                         "color": {
-                            "r": 25,
+                            "r": 255,
                             "g": 255,
-                            "b": 0,
-                            "a": 255
-                        },
-                        "borderWidth": 0
-                    },
-                    {
-                        "$type": "UiRectWindow",
-                        "color": {
-                            "r": 2,
-                            "g": 0,
                             "b": 255,
                             "a": 255
                         },
-                        "borderWidth": 0
+                    },
+                    {
+                        "$type": "UiButton",
+                        "path": "testButton3",
+                        "position": [ 30, 50 ],
+                        "size": [ 50, 30 ],
+                        "text": "click",
+                        "fontStyle": "font1",
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        },
                     },
                     {
                         "$type": "UiRectWindow",
+                        "path": "rect4",
                         "color": {
                             "r": 255,
                             "g": 0,
@@ -85,6 +93,7 @@
                     },
                     {
                         "$type": "UiRectWindow",
+                        "path": "rect5",
                         "color": {
                             "r": 255,
                             "g": 111,
@@ -97,6 +106,7 @@
             },
             {
                 "$type": "UiImageWindow",
+                "path": "sci-image",
                 "position": [ 300, 66 ],
                 "textureAsset": "textures/ui/sci_button1.tex",
                 "uv1": [ 0, 0 ],
@@ -104,6 +114,7 @@
                 "children": [
                     {
                         "$type": "UiCircleWindow",
+                        "path": "circle",
                         "position": [ 333, 170 ],
                         "radius": 44,
                         "color": {
@@ -115,6 +126,7 @@
                     },
                     {
                         "$type": "UiTextWindow",
+                        "path": "text",
                         "position": [ 180, 110 ],
                         "text": "From An Asset",
                         "fontStyle": "font1",
@@ -128,7 +140,6 @@
                 ],
             }
         ],
-        "title": "",
         "screenId": 0
     }
 }
