@@ -1,0 +1,1 @@
+- base on makemore video tutorial. https://github.com/karpathy/makemore
