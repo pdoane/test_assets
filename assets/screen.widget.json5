@@ -2,7 +2,7 @@
     "meta": {
         "name": "firstUi",
         "comment": "",
-        "type": "pe.ui.asset",
+        "type": "pe.ui.screen",
         "version": 1
     },
     "screen": {
@@ -28,12 +28,7 @@
                         "path": "rect1",
                         "position": [ 10, 10 ],
                         "size": [ 50, 30 ],
-                        "color": {
-                            "r": 255,
-                            "g": 0,
-                            "b": 0,
-                            "a": 255
-                        },
+                        "color": [255, 0, 0, 255],
                         "borderWidth": 0
                     },
                     {
@@ -44,12 +39,6 @@
                         "text": "buy",
                         "fontStyle": "font1",
                         "click": "/buy 5 apple",
-                        "color": {
-                            "r": 255,
-                            "g": 255,
-                            "b": 255,
-                            "a": 255
-                        },
                     },
                     {
                         "$type": "UiButton",
@@ -59,12 +48,6 @@
                         "text": "buy1",
                         "fontStyle": "font1",
                         "click": "buy",
-                        "color": {
-                            "r": 255,
-                            "g": 255,
-                            "b": 255,
-                            "a": 255
-                        },
                     },
                     {
                         "$type": "UiButton",
@@ -73,33 +56,17 @@
                         "size": [ 50, 30 ],
                         "text": "click",
                         "fontStyle": "font1",
-                        "color": {
-                            "r": 255,
-                            "g": 255,
-                            "b": 255,
-                            "a": 255
-                        },
                     },
                     {
                         "$type": "UiRectWindow",
                         "path": "rect4",
-                        "color": {
-                            "r": 255,
-                            "g": 0,
-                            "b": 0,
-                            "a": 255
-                        },
+                        "color": [255, 0, 0, 255],
                         "borderWidth": 0
                     },
                     {
                         "$type": "UiRectWindow",
                         "path": "rect5",
-                        "color": {
-                            "r": 255,
-                            "g": 111,
-                            "b": 0,
-                            "a": 255
-                        },
+                        "color": [255, 111, 0, 255],
                         "borderWidth": 0
                     },                    
                 ],
@@ -117,12 +84,7 @@
                         "path": "circle",
                         "position": [ 333, 170 ],
                         "radius": 44,
-                        "color": {
-                            "r": 25,
-                            "g": 127,
-                            "b": 0,
-                            "a": 255
-                        },
+                        "color": [25, 127, 0, 255],
                     },
                     {
                         "$type": "UiTextWindow",
@@ -130,12 +92,6 @@
                         "position": [ 180, 110 ],
                         "text": "From An Asset",
                         "fontStyle": "font1",
-                        "color": {
-                            "r": 255,
-                            "g": 255,
-                            "b": 255,
-                            "a": 255
-                        },
                     }
                 ],
             }

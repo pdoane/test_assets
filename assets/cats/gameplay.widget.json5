@@ -1,0 +1,146 @@
+{
+    "meta": {
+        "comment": "",
+        "type": "pe.ui.screen",
+        "version": 1
+    },
+    "screen": {
+        "$type": "UiScreen",
+        "path": "game",
+        "screenId": 3,
+        "screenTitle": "Gameplay",
+        "position": [ 0, 0 ],
+        "children": [
+            {
+                "$type": "UiVerticalLayout",
+                "alignment": "center",
+                "sizingPolicy": "fillParent",
+                "spacing": 10,
+                "children": [
+                    {
+                        "$type": "UiHorizontalLayout",
+                        "alignment": "top",
+                        "sizingPolicy": "expandHorizontal",
+                        "spacing": 10,
+                        "children": [
+                            {
+                                "$type": "UiVerticalLayout",
+                                "alignment": "left",
+                                "spacing": 4,
+                                "children": [
+                                    {
+                                        "$type": "UiProgressBar",
+                                        "path": "healthBar",
+                                        "progress": 1,
+                                        "size": [ 200, 40 ],
+                                        "children": [
+                                            {
+                                                "$type": "UiTextWindow",
+                                                "path": "health",
+                                                "fontStyle": "small",
+                                                "text": "00 / 00",
+                                                "shadow": true,
+                                                "position": [ 50, 8 ],
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        "$type": "UiProgressBar",
+                                        "path": "experienceBar",
+                                        "progress": 0,
+                                        "size": [ 200, 40 ],
+                                        "barColor": [22,255,44,255],
+                                        "children": [
+                                            {
+                                                "$type": "UiTextWindow",
+                                                "path": "experience",
+                                                "fontStyle": "small",
+                                                "text": "11 / 11",
+                                                "shadow": true,
+                                                "position": [ 50, 8 ],
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        "$type": "UiTextWindow",
+                                        "path": "harvest",
+                                        "fontStyle": "medium",
+                                        "text": "Harvested: 000000",
+                                        "color": [200,233,255,255],
+                                    },
+                                    {
+                                        "$type": "UiTextWindow",
+                                        "path": "level",
+                                        "fontStyle": "medium",
+                                        "text": "Level: 000",
+                                        "color": [200, 233, 255, 255],
+                                    },                                    
+                                ],
+                            },
+                            {
+                                "$type": "UiSpacer",
+                                "sizingPolicy": "expand",
+                            },
+                             {
+                                "$type": "UiVerticalLayout",
+                                "alignment": "center",
+                                "spacing": 0,
+                                "children": [
+                                    {
+                                        "$type": "UiTextWindow",
+                                        "path": "waveNumber",
+                                        "fontStyle": "small",
+                                        "text": "Wave: 00",
+                                    },
+                                    {
+                                        "$type": "UiTextWindow",
+                                        "path": "waveTime",
+                                        "fontStyle": "large",
+                                        "text": "000000",
+                                    },
+                                ]
+                            },
+                            {
+                                "$type": "UiSpacer",
+                                "sizingPolicy": "expand",
+                            },
+                        ],
+                    },
+                    {
+                        "$type": "UiTextWindow",
+                        "path": "paused",
+                        "fontStyle": "large",
+                        "text": "Paused",
+                    }, 
+                    {
+                        "$type": "UiNineSliceButton",
+                        "path": "gameover",
+                        "border": 16,
+                        "displaySize": [ 320, 80 ],
+                        "fontStyle": "large",
+                        "text": "GameOver",
+                        "textureAsset": "textures/ui/button.tex",
+                    },
+                ]
+            },
+            {
+                "$type": "UiVerticalLayout",
+                "path": "joy",
+                "alignment": "left",
+                "sizingPolicy": "fillParent",
+                "spacing": 9,
+                "children": [
+                    {
+                        "$type": "UiSpacer",
+                        "sizingPolicy": "expand",
+                    },                
+                    {
+                        "$type": "UiJoystick",
+                        "path": "joystick",
+                        "radius": 80,
+                    },
+                ]
+            },
+        ],
+    }
+}
