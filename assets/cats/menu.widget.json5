@@ -7,8 +7,6 @@
     "screen": {
         "$type": "UiScreen",
         "path": "menu",
-        "screenId": 2,
-        "screenTitle": "Cats Menu",
         "position": [ 0, 0 ],
         "children": [
             {

@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "name": "main",
+        "comment": "",
+        "type": "pe.ui.screen",
+        "version": 1
+    },
+    "screen": {
+        "$type": "UiScreen",
+        "path": "15main",
+        "alignment": "center",
+        "sizingPolicy": "fillParent",
+        "children": [
+           {
+            "$type": "UiHorizontalLayout",
+            "alignment": "center",
+            "sizingPolicy": "fillParent",
+            "spacing": 10,
+            "children": [
+                {
+                    "$type": "UiRectWindow",
+                    "size": [ 10, 700 ],
+                    "color": [10, 10, 255, 255]
+                },
+                {
+                    "$type": "UiSpacer",
+                    "sizingPolicy": "expand",
+                },
+                {
+                    "$type": "UiRectWindow",
+                    "size": [ 10, 700 ],
+                    "color": [10, 10, 255, 255]
+                },                
+              ],
+            },
+            {
+                "$type": "UiVerticalLayout",
+                "alignment": "center",
+                "sizingPolicy": "fillParent",                
+                "spacing": 2,
+                "children": [
+                    {
+                        "$type": "UiNineSliceButton",
+                        "path": "frame",
+                        "border": 48,
+                        "displaySize": [ 600, 140 ],
+                        "fontStyle": "font1",
+                        "text": "Indie Game Engine Test",
+                        "textColor": [10, 10, 10, 255],
+                        "textureAsset": "textures/ui/nine_slice.tex",
+                    },
+                    {
+                        "$type": "UiImageWindow",
+                        "path": "fpsBack",
+                        "size": [400,120],
+                        "textureAsset": "textures/ui/sci_button1.tex",
+                        "children": [
+                            {
+                                "$type": "UiFpsWindow",
+                                "path": "fps",
+                                "fontStyle": "font2",
+                                "position": [105, 40],
+                                "color": [200, 233, 255, 255],
+                            },
+                        ],
+                    },
+                    {
+                        "$type": "UiNineSliceButton",
+                        "path": "toggle",
+                        "border": 16,
+                        "displaySize": [ 250, 64 ],
+                        "fontStyle": "font2",
+                        "text": "Toggle FPS",
+                        "textColor": [10, 10, 10, 255],
+                        "textureAsset": "textures/ui/button.tex",
+                    },
+                    {
+                        "$type": "UiNineSliceButton",
+                        "path": "grid",
+                        "border": 16,
+                        "displaySize": [ 300, 64 ],
+                        "fontStyle": "font2",
+                        "text": "Grid Game",
+                        "textColor": [10, 10, 10, 255],
+                        "textureAsset": "textures/ui/button.tex",
+                    },
+                    {
+                        "$type": "UiNineSliceButton",
+                        "path": "options",
+                        "border": 16,
+                        "displaySize": [ 250, 64 ],
+                        "fontStyle": "font2",
+                        "text": "Options",
+                        "textColor": [10, 10, 10, 255],
+                        "textureAsset": "textures/ui/button.tex",
+                    },
+                    {
+                        "$type": "UiNineSliceButton",
+                        "path": "stacks",
+                        "border": 16,
+                        "displaySize": [ 250, 64 ],
+                        "fontStyle": "font2",
+                        "text": "Stacks",
+                        "textColor": [10, 10, 10, 255],
+                        "textureAsset": "textures/ui/button.tex",
+                    },
+                    {
+                        "$type": "UiNineSliceButton",
+                        "path": "quit",
+                        "border": 16,
+                        "displaySize": [ 180, 64 ],
+                        "fontStyle": "font2",
+                        "text": "Quit",
+                        "textColor": [10, 10, 10, 255],
+                        "textureAsset": "textures/ui/button.tex",
+                    },
+                    {
+                        "$type": "UiProgressBar",
+                        "path": "progress",
+                        "size": [200,20]
+                    },
+                    {
+                        "$type": "UiCircleWindow",
+                        "path": "circle",
+                        "radius": 40,
+                    }
+                ],
+            },
+        ],
+    }
+}

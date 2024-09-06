@@ -7,8 +7,6 @@
     "screen": {
         "$type": "UiScreen",
         "path": "game",
-        "screenId": 3,
-        "screenTitle": "Gameplay",
         "position": [ 0, 0 ],
         "children": [
             {

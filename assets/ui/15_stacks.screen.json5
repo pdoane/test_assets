@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "name": "stacks",
+        "comment": "",
+        "type": "pe.ui.screen",
+        "version": 1
+    },
+    "screen": {
+        "$type": "UiScreen",
+        "path": "15main",
+        "alignment": "center",
+        "sizingPolicy": "fillParent",
+        "children": [
+            {
+                "$type": "UiRectWindow",
+                "path": "rect",
+                "position": [ 10, 40 ],
+                "size": [ 300, 500 ],
+            }
+        ],
+    }
+}

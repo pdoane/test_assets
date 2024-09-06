@@ -1,0 +1,27 @@
+{
+    "meta": {
+        "name": "options",
+        "comment": "",
+        "type": "pe.ui.screen",
+        "version": 1
+    },
+    "screen": {
+        "$type": "UiScreen",
+        "path": "15options",
+        "alignment": "center",
+        "sizingPolicy": "fillParent",
+        "children": [
+            {
+                "$type": "UiNineSliceButton",
+                "path": "exit",
+                "border": 16,
+                "displaySize": [212, 64],
+                "position": [580, 50],
+                "fontStyle": "font2",
+                "text": "Exit",
+                "textColor": [10, 10, 10, 255],
+                "textureAsset": "textures/ui/button.tex",
+            },            
+        ],
+    }
+}
