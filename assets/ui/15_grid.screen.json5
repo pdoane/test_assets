@@ -1,0 +1,63 @@
+{
+    "meta": {
+        "name": "grid",
+        "comment": "",
+        "type": "pe.ui.screen",
+        "version": 1
+    },
+    "screen": {
+        "$type": "UiScreen",
+        "path": "15grid",
+        "alignment": "center",
+        "sizingPolicy": "fillParent",
+        "children": [
+            {
+                "$type": "UiTextWindow",
+                "path": "score",
+                "position": [ 720, 20 ],
+                "text": "Score: 000",
+                "fontStyle": "fontBig",
+            },
+            {
+                "$type": "UiTextWindow",
+                "path": "gameover",
+                "position": [ 720, 200 ],
+                "text": "Game Over",
+                "fontStyle": "fontBig",
+                "color": [255, 128, 128, 255],
+                "enabled": false,
+            },
+            {
+                "$type": "UiRectWindow",
+                "path": "back",
+                "size": [ 640, 640 ],
+                "position": [ 20, 20 ],
+                "color": [85, 80, 80, 255],
+                "children": [
+                    {
+                        "$type": "UiGridLayout",
+                        "path": "grid",
+                        "gridCells": [ 4, 4 ],
+                        "itemSize": [ 150, 150 ],
+                        "position": [ 5, 5 ],
+                        "spacing": 10,
+                        "children": [
+                            {
+                                "$type": "UiArray",
+                                "path": "grid",
+                                "count": 16,
+                                "element":
+                                {
+                                    "$type": "UiRectWindow",
+                                    "path": "tile",
+                                    "size": [ 150, 150 ],
+                                    "color": [115, 110, 110, 255],
+                                }
+                            }
+                        ]
+                    }                  
+                ]
+            },
+        ],
+    }
+}
