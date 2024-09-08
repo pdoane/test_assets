@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "nine_slice",
-        "comment": "default nine_slice button",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "color",
-    "images": ["textures/ui/nine_slice.png"],        
+  meta: {
+    comment: "default nine_slice button",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "color",
+  images: [{ path: "textures/ui/nine_slice.png" }],
 }

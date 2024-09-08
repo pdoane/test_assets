@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "cats_icon",
-        "comment": "cats_icon button",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "color",
-    "images": ["textures/ui/cats_icon.png"],
+  meta: {
+    comment: "cats_icon button",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "color",
+  images: [{ path: "textures/ui/cats_icon.png" }],
 }

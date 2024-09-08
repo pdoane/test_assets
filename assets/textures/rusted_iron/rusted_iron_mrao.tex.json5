@@ -1,15 +1,13 @@
 {
-    "meta": {
-        "name": "rusted_iron_mrao_bc",
-        "comment": "",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "mrao",
-    "images": [
-        "textures/rusted_iron/rusted_iron_metallic.png",
-        "textures/rusted_iron/rusted_iron_roughness.png",
-        "textures/rusted_iron/rusted_iron_ao.png"
-    ],
+  meta: {
+    comment: "",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "mrao",
+  images: [
+    { path: "textures/rusted_iron/rusted_iron_metallic.png" },
+    { path: "textures/rusted_iron/rusted_iron_roughness.png" },
+    { path: "textures/rusted_iron/rusted_iron_ao.png" },
+  ],
 }

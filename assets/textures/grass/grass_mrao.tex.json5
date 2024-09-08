@@ -1,15 +1,13 @@
 {
-    "meta": {
-        "name": "grass_mrao_bc",
-        "comment": "",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "mrao",
-    "images": [
-        "textures/grass/grass_metallic.png",
-        "textures/grass/grass_roughness.png",
-        "textures/grass/grass_ao.png"
-    ],
+  meta: {
+    comment: "",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "mrao",
+  images: [
+    { path: "textures/grass/grass_metallic.png" },
+    { path: "textures/grass/grass_roughness.png" },
+    { path: "textures/grass/grass_ao.png" },
+  ],
 }

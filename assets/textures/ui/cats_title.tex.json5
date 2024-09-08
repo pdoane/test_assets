@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "cats_title",
-        "comment": "cats_title image",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "color",
-    "images": ["textures/ui/cats_title.png"],    
+  meta: {
+    comment: "cats_title image",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "color",
+  images: [{ path: "textures/ui/cats_title.png" }],
 }

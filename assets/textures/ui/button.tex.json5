@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "button",
-        "comment": "default button",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "color",
-    "images": ["textures/ui/button.png"],
+  meta: {
+    comment: "default button",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "color",
+  images: [{ path: "textures/ui/button.png" }],
 }

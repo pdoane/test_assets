@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "wall_color_bc",
-        "comment": "",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "color",
-    "images": ["textures/wall/wall_albedo.png"],
+  meta: {
+    comment: "",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "color",
+  images: [{ path: "textures/wall/wall_albedo.png" }],
 }

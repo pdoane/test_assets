@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "gold_normal_bc",
-        "comment": "",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "normal",
-    "images": ["textures/gold/gold_normal.png"],
+  meta: {
+    comment: "",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "normal",
+  images: [{ path: "textures/gold/gold_normal.png" }],
 }

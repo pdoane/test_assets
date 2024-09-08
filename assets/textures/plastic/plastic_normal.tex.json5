@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "plastic_normal_bc",
-        "comment": "",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "normal",
-    "images": ["textures/plastic/plastic_normal.png"],
+  meta: {
+    comment: "",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "normal",
+  images: [{ path: "textures/plastic/plastic_normal.png" }],
 }

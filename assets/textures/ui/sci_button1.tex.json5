@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "sci_button1",
-        "comment": "scifi button",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "color",
-    "images": ["textures/ui/sci_button1.png"],            
+  meta: {
+    comment: "scifi button",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "color",
+  images: [{ path: "textures/ui/sci_button1.png" }],
 }

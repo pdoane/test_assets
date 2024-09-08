@@ -1,11 +1,9 @@
 {
-    "meta": {
-        "name": "frame",
-        "comment": "default frame",
-        "type": "pe.texture",
-        "version": 1
-    },
-    "family": "bc",
-    "type": "color",
-    "images": ["textures/ui/frame.png"],        
+  meta: {
+    comment: "default frame",
+    type: "pe.texture",
+    version: 1,
+  },
+  type: "color",
+  images: [{ path: "textures/ui/frame.png" }],
 }
