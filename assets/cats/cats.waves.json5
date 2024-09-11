@@ -1,0 +1,163 @@
+{
+    "meta": {
+        "comment": "",
+        "type": "cats.waves",
+        "version": 1
+    },
+    "waves": [
+        {
+            "id": 1,
+            "spawnInterval": 1,
+            "numSpawns": 1,
+            "spawns": [
+                {
+                    "unitType": 2,
+                    "min": 1,
+                    "max": 2
+                },
+            ]
+        },
+        {
+            "id": 2,
+            "spawnInterval": 1,
+            "numSpawns": 3,
+            "spawns": [
+                {
+                    "unitType": 2,
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "unitType": 3,
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "unitType": 8,
+                    "min": 1,
+                    "max": 1
+                },
+            ],
+        },
+        {
+            "id": 3,
+            "spawnInterval": 1,
+            "numSpawns": 4,
+            "spawns": [
+                {
+                    "unitType": 2,
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "unitType": 3,
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "unitType": 4,
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "unitType": 8,
+                    "min": 1,
+                    "max": 1
+                },
+            ],
+        },
+        {
+            "id": 4,
+            "spawnInterval": 1,
+            "numSpawns": 5,
+            "spawns": [
+                {
+                    "unitType": 2,
+                    "min": 1,
+                    "max": 4
+                },
+                {
+                    "unitType": 3,
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "unitType": 4,
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "unitType": 6,
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "unitType": 8,
+                    "min": 1,
+                    "max": 1
+                },
+            ],
+        },
+        {
+            "id": 5,
+            "spawnInterval": 1,
+            "numSpawns": 2,
+            "spawns": [
+                {
+                    "unitType": 2,
+                    "min": 5,
+                    "max": 10
+                },
+                {
+                    "unitType": 8,
+                    "min": 1,
+                    "max": 2
+                },
+            ],
+        },
+        {
+            "id": 6,
+            "spawnInterval": 1,
+            "numSpawns": 2,
+            "spawns": [
+                {
+                    "unitType": 4,
+                    "min": 4,
+                    "max": 8
+                },
+                {
+                    "unitType": 8,
+                    "min": 1,
+                    "max": 2
+                },
+            ],
+        },
+        {
+            "id": 7,
+            "spawnInterval": 1,
+            "numSpawns": 4,
+            "spawns": [
+                {
+                    "unitType": 3,
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "unitType": 6,
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "unitType": 7,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "unitType": 8,
+                    "min": 1,
+                    "max": 3
+                },
+            ],
+        },
+    ]
+}

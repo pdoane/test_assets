@@ -1,0 +1,547 @@
+{
+    "meta": {
+        "comment": "",
+        "type": "cats.weapons",
+        "version": 1
+    },
+    "weapons": [
+        { "id": 0 },
+        {
+            "id": 1,
+            "name": "Stick",
+            "tiers": [
+                {
+                    "cost": 10,
+                    "damage": 8,
+                    "cooldown": 1.25,
+                    "range": 1.75,
+                    "critChance": 0.03,
+                    "critDamage": 2,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 22,
+                    "damage": 8,
+                    "cooldown": 1.19,
+                    "range": 1.75,
+                    "critChance": 0.03,
+                    "critDamage": 2,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 45,
+                    "damage": 12,
+                    "cooldown": 1.1,
+                    "range": 1.75,
+                    "critChance": 0.03,
+                    "critDamage": 2,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 91,
+                    "damage": 20,
+                    "cooldown": 1.04,
+                    "range": 1.75,
+                    "critChance": 0.03,
+                    "critDamage": 2,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+            ],
+            "weaponClass": [ "blunt" ],
+            "attackType": "melee",
+            "soundType": "melee",
+        },
+        {
+            "id": 2,
+            "name": "Pistol",
+            "tiers": [
+                {
+                    "cost": 10,
+                    "damage": 12,
+                    "cooldown": 1.2,
+                    "range": 4,
+                    "critChance": 0.03,
+                    "critDamage": 2,
+                    "knockback": 0.15,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "rangedDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 22,
+                    "damage": 20,
+                    "cooldown": 1.12,
+                    "range": 4,
+                    "critChance": 0.03,
+                    "critDamage": 2,
+                    "knockback": 0.15,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "rangedDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 45,
+                    "damage": 30,
+                    "cooldown": 1.03,
+                    "range": 4,
+                    "critChance": 0.03,
+                    "critDamage": 2,
+                    "knockback": 0.15,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "rangedDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 91,
+                    "damage": 50,
+                    "cooldown": 0.87,
+                    "range": 4,
+                    "critChance": 0.03,
+                    "critDamage": 2,
+                    "knockback": 0.15,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "rangedDamage"
+                        },
+                    ],
+                },
+            ],
+            "projectileSpeed": 20.0,
+            "weaponClass": [ "gun" ],
+            "attackType": "ranged",
+            "soundType": "pew",
+            "projectileVisual": {
+                "color": [ 100, 200, 240 ],
+                "size": 0.24,
+                "shape": "circle",
+            },
+        },
+        {
+            "id": 3,
+            "name": "SMG",
+            "tiers": [
+                {
+                    "cost": 20,
+                    "damage": 3,
+                    "cooldown": 0.17,
+                    "range": 4.0,
+                    "critChance": 0.01,
+                    "critDamage": 1.5,
+                    "scales": [
+                        {
+                            "amount": 0.5,
+                            "attribute": "rangedDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 39,
+                    "damage": 4,
+                    "cooldown": 0.17,
+                    "range": 4.0,
+                    "critChance": 0.01,
+                    "critDamage": 1.5,
+                    "scales": [
+                        {
+                            "amount": 0.6,
+                            "attribute": "rangedDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 74,
+                    "damage": 5,
+                    "cooldown": 0.17,
+                    "range": 4.0,
+                    "critChance": 0.01,
+                    "critDamage": 1.5,
+                    "scales": [
+                        {
+                            "amount": 0.7,
+                            "attribute": "rangedDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 149,
+                    "damage": 8,
+                    "cooldown": 0.15,
+                    "range": 4.0,
+                    "critChance": 0.01,
+                    "critDamage": 1.5,
+                    "scales": [
+                        {
+                            "amount": 0.8,
+                            "attribute": "rangedDamage"
+                        },
+                    ],
+                },
+            ],
+            "projectileSpeed": 20.0,
+            "weaponClass": [ "gun" ],
+            "attackType": "ranged",
+            "soundType": "shoot",
+            "projectileVisual": {
+                "color": [ 100, 100, 240 ],
+                "size": 0.24,
+                "shape": "circle",
+            },
+        },
+        {
+            "id": 4,
+            "name": "Claw",
+            "tiers": [
+                {
+                    "cost": 15,
+                    "damage": 5,
+                    "cooldown": 0.78,
+                    "range": 1.5,
+                    "critChance": 0.1,
+                    "critDamage": 2,
+                    "scales": [
+                        {
+                            "amount": 0.5,
+                            "attribute": "meleeDamage"
+                        },
+                        {
+                            "amount": 0.15,
+                            "attribute": "attackSpeed"
+                        },
+                    ],
+                },
+                {
+                    "cost": 28,
+                    "damage": 10,
+                    "cooldown": 0.74,
+                    "range": 1.5,
+                    "critChance": 0.15,
+                    "critDamage": 2.15,
+                    "scales": [
+                        {
+                            "amount": 0.5,
+                            "attribute": "meleeDamage"
+                        },
+                        {
+                            "amount": 0.2,
+                            "attribute": "attackSpeed"
+                        },
+                    ],
+                },
+                {
+                    "cost": 55,
+                    "damage": 15,
+                    "cooldown": 0.69,
+                    "range": 1.5,
+                    "critChance": 0.2,
+                    "critDamage": 2.3,
+                    "scales": [
+                        {
+                            "amount": 0.5,
+                            "attribute": "meleeDamage"
+                        },
+                        {
+                            "amount": 0.25,
+                            "attribute": "attackSpeed"
+                        },
+                    ],
+                },
+                {
+                    "cost": 110,
+                    "damage": 25,
+                    "cooldown": 0.61,
+                    "range": 1.5,
+                    "critChance": 0.25,
+                    "critDamage": 2.5,
+                    "scales": [
+                        {
+                            "amount": 0.5,
+                            "attribute": "meleeDamage"
+                        },
+                        {
+                            "amount": 0.3,
+                            "attribute": "attackSpeed"
+                        },
+                    ],
+                },
+            ],
+            "weaponClass": [
+                "unarmed",
+                "precise"
+            ],
+            "attackType": "melee",
+            "soundType": "melee",
+        },
+        {
+            "id": 5,
+            "name": "Fist",
+            "tiers": [
+                {
+                    "cost": 10,
+                    "damage": 8,
+                    "cooldown": 0.78,
+                    "range": 1.5,
+                    "critChance": 0.01,
+                    "critDamage": 1.5,
+                    "knockback": 0.15,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 22,
+                    "damage": 16,
+                    "cooldown": 0.73,
+                    "range": 1.5,
+                    "critChance": 0.01,
+                    "critDamage": 1.5,
+                    "knockback": 0.15,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 45,
+                    "damage": 32,
+                    "cooldown": 0.69,
+                    "range": 1.5,
+                    "critChance": 0.01,
+                    "critDamage": 1.5,
+                    "knockback": 0.15,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 91,
+                    "damage": 64,
+                    "cooldown": 0.59,
+                    "range": 1.5,
+                    "critChance": 0.01,
+                    "critDamage": 1.5,
+                    "knockback": 0.15,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+            ],
+            "weaponClass": [ "unarmed" ],
+            "attackType": "melee",
+            "soundType": "melee",
+        },
+        {
+            "id": 6,
+            "name": "Hammer",
+            "tiers": [
+                {
+                    "cost": 30,
+                    "damage": 20,
+                    "cooldown": 2.0,
+                    "range": 1.75,
+                    "critChance": 0.03,
+                    "critDamage": 1.75,
+                    "knockback": 0.2,
+                    "scales": [
+                        {
+                            "amount": 1,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 51,
+                    "damage": 30,
+                    "cooldown": 1.67,
+                    "range": 1.75,
+                    "critChance": 0.03,
+                    "critDamage": 1.75,
+                    "knockback": 0.25,
+                    "scales": [
+                        {
+                            "amount": 1.5,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 95,
+                    "damage": 60,
+                    "cooldown": 1.59,
+                    "range": 1.75,
+                    "critChance": 0.03,
+                    "critDamage": 1.75,
+                    "knockback": 0.3,
+                    "scales": [
+                        {
+                            "amount": 1.75,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 190,
+                    "damage": 100,
+                    "cooldown": 1.5,
+                    "range": 1.75,
+                    "critChance": 0.03,
+                    "critDamage": 1.75,
+                    "knockback": 0.4,
+                    "scales": [
+                        {
+                            "amount": 2,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+            ],
+            "weaponClass": [
+                "blunt",
+                "heavy"
+            ],
+            "attackType": "melee",
+            "soundType": "melee",
+        },
+        {
+            "id": 7,
+            "name": "Knife",
+            "tiers": [
+                {
+                    "cost": 15,
+                    "damage": 6,
+                    "cooldown": 1.01,
+                    "range": 1.5,
+                    "critChance": 0.05,
+                    "critDamage": 2,
+                    "knockback": 0.2,
+                    "scales": [
+                        {
+                            "amount": 0.8,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 31,
+                    "damage": 9,
+                    "cooldown": 0.93,
+                    "range": 1.5,
+                    "critChance": 0.05,
+                    "critDamage": 2,
+                    "knockback": 0.2,
+                    "scales": [
+                        {
+                            "amount": 0.8,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 51,
+                    "damage": 12,
+                    "cooldown": 0.86,
+                    "range": 1.5,
+                    "critChance": 0.05,
+                    "critDamage": 2,
+                    "knockback": 0.2,
+                    "scales": [
+                        {
+                            "amount": 0.8,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+                {
+                    "cost": 122,
+                    "damage": 20,
+                    "cooldown": 0.78,
+                    "range": 1.5,
+                    "critChance": 0.05,
+                    "critDamage": 2,
+                    "knockback": 0.2,
+                    "scales": [
+                        {
+                            "amount": 0.8,
+                            "attribute": "meleeDamage"
+                        },
+                    ],
+                },
+            ],
+            "weaponClass": [ "blade" ],
+            "attackType": "melee",
+            "soundType": "melee",
+        },
+        {
+            "id": 8,
+            "name": "Enemy melee",
+            "tiers": [
+                {
+                    "cost": 0,
+                    "damage": 0,
+                    "cooldown": 1,
+                    "range": 1.0,
+                },
+            ],
+            "attackType": "enemyMelee",
+        },
+        {
+            "id": 9,
+            "name": "Enemy Spit",
+            "tiers": [
+                {
+                    "cost": 0,
+                    "damage": 0,
+                    "cooldown": 3,
+                    "range": 8.0,
+                },
+            ],
+            "projectileSpeed": 4.0,
+            "attackType": "enemyRanged",
+            "projectileVisual": {
+                "color": [ 255, 100, 100 ],
+                "size": 0.24,
+                "shape": "circle",
+            },
+        },
+    ]
+}
