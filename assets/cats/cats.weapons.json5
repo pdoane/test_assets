@@ -4,10 +4,10 @@
         "type": "cats.weapons",
         "version": 1
     },
-    "weapons": [
-        { "id": 0 },
+    "assets": [
+        { "iconId": 0 },
         {
-            "id": 1,
+            "iconId": 1,
             "name": "Stick",
             "tiers": [
                 {
@@ -72,7 +72,7 @@
             "soundType": "melee",
         },
         {
-            "id": 2,
+            "iconId": 2,
             "name": "Pistol",
             "tiers": [
                 {
@@ -147,7 +147,7 @@
             },
         },
         {
-            "id": 3,
+            "iconId": 3,
             "name": "SMG",
             "tiers": [
                 {
@@ -218,7 +218,7 @@
             },
         },
         {
-            "id": 4,
+            "iconId": 4,
             "name": "Claw",
             "tiers": [
                 {
@@ -302,7 +302,7 @@
             "soundType": "melee",
         },
         {
-            "id": 5,
+            "iconId": 5,
             "name": "Fist",
             "tiers": [
                 {
@@ -371,7 +371,7 @@
             "soundType": "melee",
         },
         {
-            "id": 6,
+            "iconId": 6,
             "name": "Hammer",
             "tiers": [
                 {
@@ -443,7 +443,7 @@
             "soundType": "melee",
         },
         {
-            "id": 7,
+            "iconId": 7,
             "name": "Knife",
             "tiers": [
                 {
@@ -512,8 +512,8 @@
             "soundType": "melee",
         },
         {
-            "id": 8,
-            "name": "Enemy melee",
+            "iconId": 8,
+            "name": "EnemyMelee",
             "tiers": [
                 {
                     "cost": 0,
@@ -525,7 +525,7 @@
             "attackType": "enemyMelee",
         },
         {
-            "id": 9,
+            "iconId": 9,
             "name": "Enemy Spit",
             "tiers": [
                 {

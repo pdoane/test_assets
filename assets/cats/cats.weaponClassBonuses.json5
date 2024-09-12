@@ -4,9 +4,10 @@
         "type": "cats.weaponClassBonuses",
         "version": 1
     },
-    "bonuses": [
+    "assets": [
         {},
         {
+            "name": "blade",
             "weaponClass": "blade",
             "tiers": [
                 {
@@ -18,8 +19,8 @@
                         {
                             "attr": "critChance",
                             "amount": 0.01
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
@@ -30,8 +31,8 @@
                         {
                             "attr": "critChance",
                             "amount": 0.02
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
@@ -42,12 +43,13 @@
                         {
                             "attr": "critChance",
                             "amount": 0.03
-                        },
-                    ],
-                },
-            ],
+                        }
+                    ]
+                }
+            ]
         },
         {
+            "name": "blunt",
             "weaponClass": "blunt",
             "tiers": [
                 {
@@ -63,8 +65,8 @@
                         {
                             "attr": "speed",
                             "amount": -0.02
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
@@ -79,8 +81,8 @@
                         {
                             "attr": "speed",
                             "amount": -0.04
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
@@ -95,12 +97,13 @@
                         {
                             "attr": "speed",
                             "amount": -0.06
-                        },
-                    ],
-                },
-            ],
+                        }
+                    ]
+                }
+            ]
         },
         {
+            "name": "elemental",
             "weaponClass": "elemental",
             "tiers": [
                 {
@@ -108,28 +111,29 @@
                         {
                             "attr": "elementalDamage",
                             "amount": 1.0
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "elementalDamage",
                             "amount": 2.0
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "elementalDamage",
                             "amount": 3.0
-                        },
-                    ],
-                },
-            ],
+                        }
+                    ]
+                }
+            ]
         },
         {
+            "name": "ethereal",
             "weaponClass": "ethereal",
             "tiers": [
                 {
@@ -141,8 +145,8 @@
                         {
                             "attr": "armor",
                             "amount": -1.0
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
@@ -153,8 +157,8 @@
                         {
                             "attr": "armor",
                             "amount": -2.0
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
@@ -165,12 +169,13 @@
                         {
                             "attr": "armor",
                             "amount": -3.0
-                        },
-                    ],
-                },
-            ],
+                        }
+                    ]
+                }
+            ]
         },
         {
+            "name": "explosive",
             "weaponClass": "explosive",
             "tiers": [
                 {
@@ -178,35 +183,36 @@
                         {
                             "attr": "explosionSize",
                             "amount": 0.05
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "explosionSize",
                             "amount": 0.1
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "explosionSize",
                             "amount": 0.15
-                        },
-                    ],
-                },
-            ],
+                        }
+                    ]
+                }
+            ]
         },
         {
+            "name": "gun",
             "weaponClass": "gun",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "range",
-                            "amount": 0.1,
+                            "amount": 0.1
                         }
                     ]
                 },
@@ -214,7 +220,7 @@
                     "items": [
                         {
                             "attr": "range",
-                            "amount": 0.2,
+                            "amount": 0.2
                         }
                     ]
                 },
@@ -229,134 +235,139 @@
             ]
         },
         {
+            "name": "heavy",
             "weaponClass": "heavy",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "damage",
-                            "amount": 0.05,
+                            "amount": 0.05
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "damage",
-                            "amount": 0.1,
+                            "amount": 0.1
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "damage",
-                            "amount": 0.15,
+                            "amount": 0.15
                         }
-                    ],
-                },
-            ],
+                    ]
+                }
+            ]
         },
         {
+            "name": "legendary",
             "weaponClass": "legendary",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "healthMax",
-                            "amount": -20.0,
+                            "amount": -20.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "healthMax",
-                            "amount": -40.0,
+                            "amount": -40.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "healthMax",
-                            "amount": -60.0,
+                            "amount": -60.0
                         }
-                    ],
-                },
-            ],
+                    ]
+                }
+            ]
         },
         {
+            "name": "medical",
             "weaponClass": "medical",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "healthRegen",
-                            "amount": 1.0,
+                            "amount": 1.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "healthRegen",
-                            "amount": 2.0,
+                            "amount": 2.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "healthRegen",
-                            "amount": 3.0,
+                            "amount": 3.0
                         }
-                    ],
-                },
-            ],
+                    ]
+                }
+            ]
         },
         {
+            "name": "medieval",
             "weaponClass": "medieval",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "armor",
-                            "amount": 1.0,
+                            "amount": 1.0
                         },
                         {
                             "attr": "dodge",
                             "amount": 0.01
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "armor",
-                            "amount": 1.0,
+                            "amount": 1.0
                         },
                         {
                             "attr": "dodge",
                             "amount": 0.03
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "armor",
-                            "amount": 2.0,
+                            "amount": 2.0
                         },
                         {
                             "attr": "dodge",
                             "amount": 0.03
-                        },
-                    ],
-                },
-            ],
+                        }
+                    ]
+                }
+            ]
         },
         {
+            "name": "precise",
             "weaponClass": "precise",
             "tiers": [
                 {
@@ -364,142 +375,146 @@
                         {
                             "attr": "critChance",
                             "amount": 0.03
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "critChance",
                             "amount": 0.06
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "critChance",
                             "amount": 0.09
-                        },
-                    ],
-                },
-            ],
+                        }
+                    ]
+                }
+            ]
         },
         {
+            "name": "primitive",
             "weaponClass": "primitive",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "healthMax",
-                            "amount": 3.0,
+                            "amount": 3.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "healthMax",
-                            "amount": 6.0,
+                            "amount": 6.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "healthMax",
-                            "amount": 9.0,
+                            "amount": 9.0
                         }
-                    ],
-                },
-            ],
+                    ]
+                }
+            ]
         },
         {
+            "name": "support",
             "weaponClass": "support",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "harvesting",
-                            "amount": 5.0,
+                            "amount": 5.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "harvesting",
-                            "amount": 10.0,
+                            "amount": 10.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "harvesting",
-                            "amount": 15.0,
+                            "amount": 15.0
                         }
-                    ],
-                },
-            ],
+                    ]
+                }
+            ]
         },
         {
+            "name": "tool",
             "weaponClass": "tool",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "engineering",
-                            "amount": 1.0,
+                            "amount": 1.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "engineering",
-                            "amount": 2.0,
+                            "amount": 2.0
                         }
-                    ],
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "engineering",
-                            "amount": 3.0,
+                            "amount": 3.0
                         }
-                    ],
-                },
-            ],
+                    ]
+                }
+            ]
         },
         {
-            "weaponClass": "unarmed",
+            "name": "tool",
+            "weaponClass": "tool",
             "tiers": [
                 {
                     "items": [
                         {
                             "attr": "dodge",
                             "amount": 0.03
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "dodge",
                             "amount": 0.06
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "items": [
                         {
                             "attr": "dodge",
                             "amount": 0.09
-                        },
-                    ],
-                },
-            ],
+                        }
+                    ]
+                }
+            ]
         },
     ]
 }

@@ -4,9 +4,8 @@
         "type": "cats.units",
         "version": 1
     },
-    "units": [
+    "assets": [
         {
-            "id": 1,
             "name": "Default Player",
             "healthMax": 10,
             "speed": 4.50,
@@ -20,10 +19,9 @@
                 "shape": "circle",
                 "meshId": 0,
             },
-            "weapons": [ 4, 0, 0, 0 ],
+            "weapons": [ "cats/cats.weapons/Stick" ],
         },
         {
-            "id": 2,
             "name": "Baby enemy",
             "healthMax": 3,
             "healthPerWave": 2,
@@ -44,11 +42,9 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "attributes": {},
-            "weapons": [ 8, 0, 0, 0 ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
-            "id": 3,
             "name": "Chaser enemy",
             "healthMax": 1,
             "healthPerWave": 1,
@@ -70,10 +66,9 @@
                 "meshId": -1,
             },
             "attributes": {},
-            "weapons": [ 8, 0, 0, 0 ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
-            "id": 4,
             "name": "Spitter enemy",
             "healthMax": 8,
             "healthPerWave": 1,
@@ -96,10 +91,9 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ 8, 9, 0, 0 ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee", "cats/cats.weapons/Enemy Spit" ],
         },
         {
-            "id": 5,
             "name": "Charger enemy",
             "healthMax": 4,
             "healthPerWave": 2.5,
@@ -122,10 +116,9 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ 8, 0, 0, 0 ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
-            "id": 6,
             "name": "Pursuer enemy",
             "healthMax": 10,
             "healthPerWave": 24.0,
@@ -148,10 +141,9 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ 8, 0, 0, 0 ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
-            "id": 7,
             "name": "Bruiser enemy",
             "healthMax": 20,
             "healthPerWave": 11.0,
@@ -172,10 +164,9 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ 8, 0, 0, 0 ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
-            "id": 8,
             "name": "Tree",
             "healthMax": 10,
             "healthPerWave": 5,
@@ -195,7 +186,6 @@
             },
         },
         {
-            "id": 9,
             "name": "Material",
             "healthMax": 1,
             "behavior": "idle",
@@ -210,7 +200,6 @@
             },
         },
         {
-            "id": 10,
             "name": "Crate",
             "healthMax": 1,
             "behavior": "idle",
@@ -226,7 +215,6 @@
             },
         },
         {
-            "id": 11,
             "name": "Fruit",
             "healthMax": 1,
             "behavior": "idle",
