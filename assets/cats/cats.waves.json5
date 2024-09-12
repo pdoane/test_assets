@@ -12,7 +12,7 @@
             "numSpawns": 1,
             "spawns": [
                 {
-                    "unitType": "cats/cats.units/Baby enemy",
+                    "unitType": "cats/cats.units:Baby enemy",
                     "min": 1,
                     "max": 2
                 },
@@ -25,17 +25,17 @@
             "numSpawns": 3,
             "spawns": [
                 {
-                    "unitType": "cats/cats.units/Baby enemy",
+                    "unitType": "cats/cats.units:Baby enemy",
                     "min": 1,
                     "max": 2
                 },
                 {
-                    "unitType": "cats/cats.units/Chaser enemy",
+                    "unitType": "cats/cats.units:Chaser enemy",
                     "min": 2,
                     "max": 3
                 },
                 {
-                    "unitType": "cats/cats.units/Tree",
+                    "unitType": "cats/cats.units:Tree",
                     "min": 1,
                     "max": 1
                 },
@@ -48,22 +48,22 @@
             "numSpawns": 4,
             "spawns": [
                 {
-                    "unitType": "cats/cats.units/Baby enemy",
+                    "unitType": "cats/cats.units:Baby enemy",
                     "min": 2,
                     "max": 3
                 },
                 {
-                    "unitType": "cats/cats.units/Chaser enemy",
+                    "unitType": "cats/cats.units:Chaser enemy",
                     "min": 2,
                     "max": 3
                 },
                 {
-                    "unitType": "cats/cats.units/Spitter enemy",
+                    "unitType": "cats/cats.units:Spitter enemy",
                     "min": 2,
                     "max": 3
                 },
                 {
-                    "unitType": "cats/cats.units/Tree",
+                    "unitType": "cats/cats.units:Tree",
                     "min": 1,
                     "max": 1
                 },
@@ -76,27 +76,27 @@
             "numSpawns": 5,
             "spawns": [
                 {
-                    "unitType": "cats/cats.units/Baby enemy",
+                    "unitType": "cats/cats.units:Baby enemy",
                     "min": 1,
                     "max": 4
                 },
                 {
-                    "unitType": "cats/cats.units/Chaser enemy",
+                    "unitType": "cats/cats.units:Chaser enemy",
                     "min": 2,
                     "max": 3
                 },
                 {
-                    "unitType": "cats/cats.units/Spitter enemy",
+                    "unitType": "cats/cats.units:Spitter enemy",
                     "min": 2,
                     "max": 3
                 },
                 {
-                    "unitType": "cats/cats.units/Pursuer enemy",
+                    "unitType": "cats/cats.units:Pursuer enemy",
                     "min": 1,
                     "max": 2
                 },
                 {
-                    "unitType": "cats/cats.units/Tree",
+                    "unitType": "cats/cats.units:Tree",
                     "min": 1,
                     "max": 1
                 },
@@ -109,12 +109,12 @@
             "numSpawns": 2,
             "spawns": [
                 {
-                    "unitType": "cats/cats.units/Baby enemy",
+                    "unitType": "cats/cats.units:Baby enemy",
                     "min": 5,
                     "max": 10
                 },
                 {
-                    "unitType": "cats/cats.units/Tree",
+                    "unitType": "cats/cats.units:Tree",
                     "min": 1,
                     "max": 2
                 },
@@ -127,12 +127,12 @@
             "numSpawns": 2,
             "spawns": [
                 {
-                    "unitType": "cats/cats.units/Spitter enemy",
+                    "unitType": "cats/cats.units:Spitter enemy",
                     "min": 4,
                     "max": 8
                 },
                 {
-                    "unitType": "cats/cats.units/Tree",
+                    "unitType": "cats/cats.units:Tree",
                     "min": 1,
                     "max": 2
                 },
@@ -145,22 +145,22 @@
             "numSpawns": 4,
             "spawns": [
                 {
-                    "unitType": "cats/cats.units/Chaser enemy",
+                    "unitType": "cats/cats.units:Chaser enemy",
                     "min": 2,
                     "max": 3
                 },
                 {
-                    "unitType": "cats/cats.units/Pursuer enemy",
+                    "unitType": "cats/cats.units:Pursuer enemy",
                     "min": 1,
                     "max": 2
                 },
                 {
-                    "unitType": "cats/cats.units/Bruiser enemy",
+                    "unitType": "cats/cats.units:Bruiser enemy",
                     "min": 1,
                     "max": 1
                 },
                 {
-                    "unitType": "cats/cats.units/Tree",
+                    "unitType": "cats/cats.units:Tree",
                     "min": 1,
                     "max": 3
                 },
