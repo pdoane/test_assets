@@ -2,7 +2,8 @@
     "meta": {
         "comment": "",
         "type": "cats.units",
-        "version": 1
+        "version": 1,
+        "assets": "assets",
     },
     "assets": [
         {
@@ -19,7 +20,7 @@
                 "shape": "circle",
                 "meshId": 0,
             },
-            "weapons": [ "cats/cats.weapons:Stick" ],
+            "weapons": [ "cats/cats.weapons/Stick" ],
         },
         {
             "name": "Baby enemy",
@@ -42,7 +43,7 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ "cats/cats.weapons:EnemyMelee" ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
             "name": "Chaser enemy",
@@ -66,7 +67,7 @@
                 "meshId": -1,
             },
             "attributes": {},
-            "weapons": [ "cats/cats.weapons:EnemyMelee" ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
             "name": "Spitter enemy",
@@ -91,7 +92,7 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ "cats/cats.weapons:EnemyMelee", "cats/cats.weapons:Enemy Spit" ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee", "cats/cats.weapons/Enemy Spit" ],
         },
         {
             "name": "Charger enemy",
@@ -116,7 +117,7 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ "cats/cats.weapons:EnemyMelee" ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
             "name": "Pursuer enemy",
@@ -141,7 +142,7 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ "cats/cats.weapons:EnemyMelee" ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
             "name": "Bruiser enemy",
@@ -164,7 +165,7 @@
                 "shape": "circle",
                 "meshId": -1,
             },
-            "weapons": [ "cats/cats.weapons:EnemyMelee" ],
+            "weapons": [ "cats/cats.weapons/EnemyMelee" ],
         },
         {
             "name": "Tree",
