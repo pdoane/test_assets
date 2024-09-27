@@ -1,55 +1,55 @@
 {
-    "meta": {
-        "name": "other",
-        "comment": "first test asset",
-        "type": "pe.particle.emitter",
-        "version": 1
+  meta: {
+    name: "other",
+    comment: "first test asset",
+    type: "ParticleEmitter",
+    version: 1,
+  },
+  position: [-100, 40.351, -79.31],
+  emitRate: 374.7170104980469,
+  emitTime: -431602080,
+  direction: [0, 0, 1],
+  speed: 100.96199798583984,
+  spread: 0.5,
+  lifetime: 3,
+  rotationSpeed: 6,
+  rotationAxis: [0.8944272, 0, 0.4472136],
+  colorBegin: [0, 0.2, 1, 1],
+  colorEnd: [0, 1, 0.6470587, 1],
+  sizeBegin: 1.100000023841858,
+  sizeEnd: 0.20000000298023224,
+  animations: [
+    {
+      param: "positionY",
+      op: "add",
+      func: "sin",
+      rate: 1,
+      valueBegin: 8.491000175476074,
+      valueEnd: 0,
     },
-    "position": [-100, 40.351, -79.31],
-    "emitRate": 374.7170104980469,
-    "emitTime": -431602080,
-    "direction": [0, 0, 1],
-    "speed": 100.96199798583984,
-    "spread": 0.5,
-    "lifetime": 3,
-    "rotationSpeed": 6,
-    "rotationAxis": [0.8944272, 0, 0.4472136],
-    "colorBegin": [0, 0.2, 1, 1],
-    "colorEnd": [0, 1, 0.6470587, 1],
-    "sizeBegin": 1.100000023841858,
-    "sizeEnd": 0.20000000298023224,
-    "animations": [
-        {
-            "param": "positionY",
-            "op": "add",
-            "func": "sin",
-            "rate": 1,
-            "valueBegin": 8.491000175476074,
-            "valueEnd": 0
-        },
-        {
-            "param": "positionX",
-            "op": "add",
-            "func": "cos",
-            "rate": 1,
-            "valueBegin": 6.88700008392334,
-            "valueEnd": 0
-        },
-        {
-            "param": "colorBeginR",
-            "op": "add",
-            "func": "pingpong",
-            "rate": 0.20000000298023224,
-            "valueBegin": 0,
-            "valueEnd": 1
-        },
-        {
-            "param": "speed",
-            "op": "mult",
-            "func": "ramp",
-            "rate": 3.1510000228881836,
-            "valueBegin": 1,
-            "valueEnd": 0
-        }
-    ]
+    {
+      param: "positionX",
+      op: "add",
+      func: "cos",
+      rate: 1,
+      valueBegin: 6.88700008392334,
+      valueEnd: 0,
+    },
+    {
+      param: "colorBeginR",
+      op: "add",
+      func: "pingpong",
+      rate: 0.20000000298023224,
+      valueBegin: 0,
+      valueEnd: 1,
+    },
+    {
+      param: "speed",
+      op: "mult",
+      func: "ramp",
+      rate: 3.1510000228881836,
+      valueBegin: 1,
+      valueEnd: 0,
+    },
+  ],
 }

@@ -1,99 +1,99 @@
 {
-    "meta": {
-        "name": "firstUi",
-        "comment": "",
-        "type": "pe.ui.screen",
-        "version": 1
-    },
-    "screen": {
-        "$type": "UiScreen",
-        "path": "screen",
-        "position": [ 30, 55 ],
-        "size": [ 212, 213 ],
-        "alignment": "center",
-        "sizingPolicy": "fillParent",
-        "children": [
-            {
-                "$type": "UiGridLayout",
-                "path": "grid1",
-                "position": [ 10, 40 ],
-                "size": [ 400, 400 ],
-                "gridCells": [ 3, 3 ],
-                "itemSize": [ 140, 40 ],
-                "spacing": 5,
-                "children": [
-                    {
-                        "$type": "UiRectWindow",
-                        "path": "rect1",
-                        "position": [ 10, 10 ],
-                        "size": [ 50, 30 ],
-                        "color": [255, 0, 0, 255],
-                        "borderWidth": 0
-                    },
-                    {
-                        "$type": "UiButton",
-                        "path": "testButton1",
-                        "position": [ 30, 50 ],
-                        "size": [ 50, 30 ],
-                        "text": "buy",
-                        "fontStyle": "font1",
-                        "click": "/buy 5 apple",
-                    },
-                    {
-                        "$type": "UiButton",
-                        "path": "testButton2",
-                        "position": [ 30, 50 ],
-                        "size": [ 50, 30 ],
-                        "text": "buy1",
-                        "fontStyle": "font1",
-                        "click": "buy",
-                    },
-                    {
-                        "$type": "UiButton",
-                        "path": "testButton3",
-                        "position": [ 30, 50 ],
-                        "size": [ 50, 30 ],
-                        "text": "click",
-                        "fontStyle": "font1",
-                    },
-                    {
-                        "$type": "UiRectWindow",
-                        "path": "rect4",
-                        "color": [255, 0, 0, 255],
-                        "borderWidth": 0
-                    },
-                    {
-                        "$type": "UiRectWindow",
-                        "path": "rect5",
-                        "color": [255, 111, 0, 255],
-                        "borderWidth": 0
-                    },                    
-                ],
-            },
-            {
-                "$type": "UiImageWindow",
-                "path": "sci-image",
-                "position": [ 300, 66 ],
-                "textureAsset": "textures/ui/sci_button1.tex",
-                "uv1": [ 0, 0 ],
-                "uv2": [ 1, 1 ],
-                "children": [
-                    {
-                        "$type": "UiCircleWindow",
-                        "path": "circle",
-                        "position": [ 333, 170 ],
-                        "radius": 44,
-                        "color": [25, 127, 0, 255],
-                    },
-                    {
-                        "$type": "UiTextWindow",
-                        "path": "text",
-                        "position": [ 180, 110 ],
-                        "text": "From An Asset",
-                        "fontStyle": "font1",
-                    }
-                ],
-            }
+  meta: {
+    name: "firstUi",
+    comment: "",
+    type: "Screen",
+    version: 1,
+  },
+  screen: {
+    $type: "UiScreen",
+    path: "screen",
+    position: [30, 55],
+    size: [212, 213],
+    alignment: "center",
+    sizingPolicy: "fillParent",
+    children: [
+      {
+        $type: "UiGridLayout",
+        path: "grid1",
+        position: [10, 40],
+        size: [400, 400],
+        gridCells: [3, 3],
+        itemSize: [140, 40],
+        spacing: 5,
+        children: [
+          {
+            $type: "UiRectWindow",
+            path: "rect1",
+            position: [10, 10],
+            size: [50, 30],
+            color: [255, 0, 0, 255],
+            borderWidth: 0,
+          },
+          {
+            $type: "UiButton",
+            path: "testButton1",
+            position: [30, 50],
+            size: [50, 30],
+            text: "buy",
+            fontStyle: "font1",
+            click: "/buy 5 apple",
+          },
+          {
+            $type: "UiButton",
+            path: "testButton2",
+            position: [30, 50],
+            size: [50, 30],
+            text: "buy1",
+            fontStyle: "font1",
+            click: "buy",
+          },
+          {
+            $type: "UiButton",
+            path: "testButton3",
+            position: [30, 50],
+            size: [50, 30],
+            text: "click",
+            fontStyle: "font1",
+          },
+          {
+            $type: "UiRectWindow",
+            path: "rect4",
+            color: [255, 0, 0, 255],
+            borderWidth: 0,
+          },
+          {
+            $type: "UiRectWindow",
+            path: "rect5",
+            color: [255, 111, 0, 255],
+            borderWidth: 0,
+          },
         ],
-     }
+      },
+      {
+        $type: "UiImageWindow",
+        path: "sci-image",
+        position: [300, 66],
+        textureAsset: "textures/ui/sci_button1.tex",
+        uv1: [0, 0],
+        uv2: [1, 1],
+        children: [
+          {
+            $type: "UiCircleWindow",
+            path: "circle",
+            position: [333, 170],
+            radius: 44,
+            color: [25, 127, 0, 255],
+          },
+          {
+            $type: "UiTextWindow",
+            path: "text",
+            position: [180, 110],
+            text: "From An Asset",
+            fontStyle: "font1",
+          },
+        ],
+      },
+    ],
+  },
 }

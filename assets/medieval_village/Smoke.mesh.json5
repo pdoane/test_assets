@@ -1,9 +1,9 @@
 {
-  "meta": {
-    "name": "smoke",
-    "comment": "medieval smoke",
-    "type": "pe.mesh",
-    "version": 1
+  meta: {
+    name: "smoke",
+    comment: "medieval smoke",
+    type: "Mesh",
+    version: 1,
   },
-  "fbxSource": "medieval_village/meshes/Smoke.fbx"
+  fbxSource: "medieval_village/meshes/Smoke.fbx",
 }

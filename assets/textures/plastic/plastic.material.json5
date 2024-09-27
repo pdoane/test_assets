@@ -1,11 +1,11 @@
 {
-    "meta": {
-        "name": "plastic",
-        "comment": "",
-        "type": "pe.material.pbr",
-        "version": 1
-    },
-    "albedo": "textures/plastic/plastic_color.tex",
-    "normal": "textures/plastic/plastic_normal.tex",
-    "mrao": "textures/plastic/plastic_mrao.tex",
+  meta: {
+    name: "plastic",
+    comment: "",
+    type: "PbrMaterial",
+    version: 1,
+  },
+  albedo: "textures/plastic/plastic_color.tex",
+  normal: "textures/plastic/plastic_normal.tex",
+  mrao: "textures/plastic/plastic_mrao.tex",
 }

@@ -1,9 +1,9 @@
 {
-    "meta": {
-        "name": "pointfree",
-        "comment": "simple font",
-        "type": "pe.font",
-        "version": 1
-    },
-    "fontSource": "fonts/pointfree.ttf"
+  meta: {
+    name: "pointfree",
+    comment: "simple font",
+    type: "Font",
+    version: 1,
+  },
+  fontSource: "fonts/pointfree.ttf",
 }

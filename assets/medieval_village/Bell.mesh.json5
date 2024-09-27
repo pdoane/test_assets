@@ -1,9 +1,9 @@
 {
-  "meta": {
-    "name": "bell",
-    "comment": "medieval cart",
-    "type": "pe.mesh",
-    "version": 1
+  meta: {
+    name: "bell",
+    comment: "medieval cart",
+    type: "Mesh",
+    version: 1,
   },
-  "fbxSource": "medieval_village/meshes/Bell.fbx"
+  fbxSource: "medieval_village/meshes/Bell.fbx",
 }

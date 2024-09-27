@@ -1,44 +1,44 @@
 {
-    "meta": {
-        "comment": "",
-        "type": "pe.ui.screen",
-        "version": 1
-    },
-    "screen": {
-        "$type": "UiScreen",
-        "path": "title",
-        "position": [ 0, 0 ],
-        "children": [
-            {
-                "$type": "UiHorizontalLayout",
-                "alignment": "center",
-                "sizingPolicy": "fillParent",                
-                "spacing": 5,
-                "children": [
-                    { "$type": "UiSpacer", "sizingPolicy": "expandHorizontal" },
-                    {
-                        "$type": "UiImageWindow",
-                        "textureAsset": "textures/ui/cats_background.tex",
-                    },
-                    { "$type": "UiSpacer", "sizingPolicy": "expandHorizontal" },
-                  ]
-            },
-            {
-                "$type": "UiVerticalLayout",
-                "alignment": "center",
-                "sizingPolicy": "fillParent",                
-                "spacing": 5, 
-                "children": [
-                    { "$type": "UiSpacer", "sizingPolicy": "expandVertical" },
-                    { "$type": "UiSpacer", "sizingPolicy": "expandVertical" },
-                    {
-                        "$type": "UiImageButton",
-                        "path": "title",
-                        "textureAsset": "textures/ui/cats_title.tex",
-                    },
-                    { "$type": "UiSpacer", "sizingPolicy": "expandVertical" },
-                ]                       
-            },
+  meta: {
+    comment: "",
+    type: "Screen",
+    version: 1,
+  },
+  screen: {
+    $type: "UiScreen",
+    path: "title",
+    position: [0, 0],
+    children: [
+      {
+        $type: "UiHorizontalLayout",
+        alignment: "center",
+        sizingPolicy: "fillParent",
+        spacing: 5,
+        children: [
+          { $type: "UiSpacer", sizingPolicy: "expandHorizontal" },
+          {
+            $type: "UiImageWindow",
+            textureAsset: "textures/ui/cats_background.tex",
+          },
+          { $type: "UiSpacer", sizingPolicy: "expandHorizontal" },
         ],
-     }
+      },
+      {
+        $type: "UiVerticalLayout",
+        alignment: "center",
+        sizingPolicy: "fillParent",
+        spacing: 5,
+        children: [
+          { $type: "UiSpacer", sizingPolicy: "expandVertical" },
+          { $type: "UiSpacer", sizingPolicy: "expandVertical" },
+          {
+            $type: "UiImageButton",
+            path: "title",
+            textureAsset: "textures/ui/cats_title.tex",
+          },
+          { $type: "UiSpacer", sizingPolicy: "expandVertical" },
+        ],
+      },
+    ],
+  },
 }

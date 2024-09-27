@@ -1,9 +1,9 @@
 {
-    "meta": {
-        "name": "SillySet",
-        "comment": "silly font",
-        "type": "pe.font",
-        "version": 1
-    },
-    "fontSource": "fonts/SillySet.ttf"
+  meta: {
+    name: "SillySet",
+    comment: "silly font",
+    type: "Font",
+    version: 1,
+  },
+  fontSource: "fonts/SillySet.ttf",
 }

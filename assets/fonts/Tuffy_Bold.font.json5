@@ -1,9 +1,9 @@
 {
-    "meta": {
-        "name": "Tuffy_Bold",
-        "comment": "bold font",
-        "type": "pe.font",
-        "version": 1
-    },
-    "fontSource": "fonts/Tuffy_Bold.ttf"
+  meta: {
+    name: "Tuffy_Bold",
+    comment: "bold font",
+    type: "Font",
+    version: 1,
+  },
+  fontSource: "fonts/Tuffy_Bold.ttf",
 }

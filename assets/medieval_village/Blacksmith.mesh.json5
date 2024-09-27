@@ -1,9 +1,9 @@
 {
-  "meta": {
-    "name": "blacksmith",
-    "comment": "medieval cart",
-    "type": "pe.mesh",
-    "version": 1
+  meta: {
+    name: "blacksmith",
+    comment: "medieval cart",
+    type: "Mesh",
+    version: 1,
   },
-  "fbxSource": "medieval_village/meshes/Blacksmith.fbx"
+  fbxSource: "medieval_village/meshes/Blacksmith.fbx",
 }

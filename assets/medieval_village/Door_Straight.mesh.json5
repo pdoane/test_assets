@@ -1,9 +1,9 @@
 {
-  "meta": {
-    "name": "Door_Straight",
-    "comment": "medieval cart",
-    "type": "pe.mesh",
-    "version": 1
+  meta: {
+    name: "Door_Straight",
+    comment: "medieval cart",
+    type: "Mesh",
+    version: 1,
   },
-  "fbxSource": "medieval_village/meshes/Door_Straight.fbx"
+  fbxSource: "medieval_village/meshes/Door_Straight.fbx",
 }

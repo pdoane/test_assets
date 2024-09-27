@@ -1,57 +1,57 @@
 {
-    "meta": {
-        "comment": "",
-        "type": "pe.ui.screen",
-        "version": 1
-    },
-    "screen": {
-        "$type": "UiScreen",
-        "path": "menu",
-        "position": [ 0, 0 ],
-        "children": [
-            {
-                "$type": "UiVerticalLayout",
-                "alignment": "center",
-                "sizingPolicy": "fillParent",
-                "spacing": 10,
-                "children": [
-                    {
-                        "$type": "UiImageWindow",
-                        "textureAsset": "textures/ui/cats_title.tex",
-                        "size": [ 800, 400 ],                        
-                    },
-                    {
-                        "$type": "UiNineSliceButton",
-                        "path": "start",
-                        "border": 16,
-                        "displaySize": [ 400, 80 ],
-                        "fontStyle": "large",
-                        "text": "Start Game",
-                        "textureAsset": "textures/ui/button.tex",
-                        "textColor": [20, 20, 20, 255],
-                    },
-                    {
-                        "$type": "UiNineSliceButton",
-                        "path": "options",
-                        "border": 16,
-                        "displaySize": [ 400, 80 ],
-                        "fontStyle": "large",
-                        "text": "Options",
-                        "textureAsset": "textures/ui/button.tex",
-                        "textColor": [20, 20, 20, 255],                        
-                    },
-                    {
-                        "$type": "UiNineSliceButton",
-                        "path": "quit",
-                        "border": 16,
-                        "displaySize": [ 400, 80 ],
-                        "fontStyle": "large",
-                        "text": "Quit",
-                        "textureAsset": "textures/ui/button.tex",
-                        "textColor": [20, 20, 20, 255], 
-                    },
-                ]
-            },
+  meta: {
+    comment: "",
+    type: "Screen",
+    version: 1,
+  },
+  screen: {
+    $type: "UiScreen",
+    path: "menu",
+    position: [0, 0],
+    children: [
+      {
+        $type: "UiVerticalLayout",
+        alignment: "center",
+        sizingPolicy: "fillParent",
+        spacing: 10,
+        children: [
+          {
+            $type: "UiImageWindow",
+            textureAsset: "textures/ui/cats_title.tex",
+            size: [800, 400],
+          },
+          {
+            $type: "UiNineSliceButton",
+            path: "start",
+            border: 16,
+            displaySize: [400, 80],
+            fontStyle: "large",
+            text: "Start Game",
+            textureAsset: "textures/ui/button.tex",
+            textColor: [20, 20, 20, 255],
+          },
+          {
+            $type: "UiNineSliceButton",
+            path: "options",
+            border: 16,
+            displaySize: [400, 80],
+            fontStyle: "large",
+            text: "Options",
+            textureAsset: "textures/ui/button.tex",
+            textColor: [20, 20, 20, 255],
+          },
+          {
+            $type: "UiNineSliceButton",
+            path: "quit",
+            border: 16,
+            displaySize: [400, 80],
+            fontStyle: "large",
+            text: "Quit",
+            textureAsset: "textures/ui/button.tex",
+            textColor: [20, 20, 20, 255],
+          },
         ],
-    }
+      },
+    ],
+  },
 }

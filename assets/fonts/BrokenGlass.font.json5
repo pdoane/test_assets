@@ -1,9 +1,9 @@
 {
-    "meta": {
-        "name": "BrokenGlass",
-        "comment": "broken glass font",
-        "type": "pe.font",
-        "version": 1
-    },
-    "fontSource": "fonts/BrokenGlass.ttf"
+  meta: {
+    name: "BrokenGlass",
+    comment: "broken glass font",
+    type: "Font",
+    version: 1,
+  },
+  fontSource: "fonts/BrokenGlass.ttf",
 }

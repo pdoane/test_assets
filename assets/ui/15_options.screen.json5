@@ -1,59 +1,58 @@
 {
-    "meta": {
-        "name": "options",
-        "comment": "",
-        "type": "pe.ui.screen",
-        "version": 1
-    },
-    "screen": {
-        "$type": "UiScreen",
-        "path": "15options",
-        "alignment": "center",
-        "sizingPolicy": "fillParent",
-        "children": [
-            {
-                "$type": "UiNineSliceButton",
-                "path": "exit",
-                "border": 16,
-                "displaySize": [212, 64],
-                "position": [580, 50],
-                "fontStyle": "font2",
-                "text": "Exit",
-                "textColor": [10, 10, 10, 255],
-                "textureAsset": "textures/ui/button.tex",
-            }, 
-            {
-                "$type": "UiGridLayout",
-                "path": "grid1",
-                "position": [ 200, 200 ],
-                "size": [ 1200, 800 ],
-                "gridCells": [ 4, 4 ],
-                "itemSize": [ 200, 100 ],
-                "spacing": 5,
-                "children": [
-                    {
-                        "$type": "UiArray",
-                        "path": "grid",
-                        "count": 16,
-                        "element":
-                        {
-                            "$type": "UiRectWindow",
-                            "path": "tile",
-                            "size": [ 50, 50 ],
-                            "color": [10, 10, 255, 255],
-                            "borderColor": [255,10,10,255],
-                            "borderWidth": 4,
-                            "children": [
-                                {
-                                    "$type": "UiCircleWindow",
-                                    "radius": 20,
-                                    "position": [20,20]
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
+  meta: {
+    name: "options",
+    comment: "",
+    type: "Screen",
+    version: 1,
+  },
+  screen: {
+    $type: "UiScreen",
+    path: "15options",
+    alignment: "center",
+    sizingPolicy: "fillParent",
+    children: [
+      {
+        $type: "UiNineSliceButton",
+        path: "exit",
+        border: 16,
+        displaySize: [212, 64],
+        position: [580, 50],
+        fontStyle: "font2",
+        text: "Exit",
+        textColor: [10, 10, 10, 255],
+        textureAsset: "textures/ui/button.tex",
+      },
+      {
+        $type: "UiGridLayout",
+        path: "grid1",
+        position: [200, 200],
+        size: [1200, 800],
+        gridCells: [4, 4],
+        itemSize: [200, 100],
+        spacing: 5,
+        children: [
+          {
+            $type: "UiArray",
+            path: "grid",
+            count: 16,
+            element: {
+              $type: "UiRectWindow",
+              path: "tile",
+              size: [50, 50],
+              color: [10, 10, 255, 255],
+              borderColor: [255, 10, 10, 255],
+              borderWidth: 4,
+              children: [
+                {
+                  $type: "UiCircleWindow",
+                  radius: 20,
+                  position: [20, 20],
+                },
+              ],
+            },
+          },
         ],
-    },
+      },
+    ],
+  },
 }

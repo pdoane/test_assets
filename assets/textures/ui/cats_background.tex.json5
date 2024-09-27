@@ -1,7 +1,7 @@
 {
   meta: {
     comment: "cats_background image",
-    type: "pe.texture",
+    type: "Texture",
     version: 1,
   },
   type: "color",

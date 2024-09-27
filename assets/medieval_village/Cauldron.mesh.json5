@@ -1,9 +1,9 @@
 {
-  "meta": {
-    "name": "cauldron",
-    "comment": "medieval cart",
-    "type": "pe.mesh",
-    "version": 1
+  meta: {
+    name: "cauldron",
+    comment: "medieval cart",
+    type: "Mesh",
+    version: 1,
   },
-  "fbxSource": "medieval_village/meshes/Cauldron.fbx"
+  fbxSource: "medieval_village/meshes/Cauldron.fbx",
 }

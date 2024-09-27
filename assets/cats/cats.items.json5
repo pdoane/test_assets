@@ -1,7 +1,7 @@
 {
     "meta": {
         "comment": "",
-        "type": "cats.items",
+        "type": "Items",
         "version": 1,
         "assets": "assets",        
     },
