@@ -1,171 +1,170 @@
 {
-  meta: {
-    comment: "",
-    type: "Waves",
-    version: 1,
-    assets: "assets",
+  cat1: {
+    meta: { type: "WaveType" },
+    id: 1,
+    name: "cat1",
+    spawnInterval: 1,
+    numSpawns: 1,
+    spawns: [
+      {
+        unitType: "cats/cats.units/baby_enemy",
+        min: 1,
+        max: 2,
+      },
+    ],
   },
-  assets: [
-    {
-      id: 1,
-      name: "cat1",
-      spawnInterval: 1,
-      numSpawns: 1,
-      spawns: [
-        {
-          unitType: "cats/cats.units/Baby enemy",
-          min: 1,
-          max: 2,
-        },
-      ],
-    },
-    {
-      id: 2,
-      name: "cat2",
-      spawnInterval: 1,
-      numSpawns: 3,
-      spawns: [
-        {
-          unitType: "cats/cats.units/Baby enemy",
-          min: 1,
-          max: 2,
-        },
-        {
-          unitType: "cats/cats.units/Chaser enemy",
-          min: 2,
-          max: 3,
-        },
-        {
-          unitType: "cats/cats.units/Tree",
-          min: 1,
-          max: 1,
-        },
-      ],
-    },
-    {
-      id: 3,
-      name: "cat3",
-      spawnInterval: 1,
-      numSpawns: 4,
-      spawns: [
-        {
-          unitType: "cats/cats.units/Baby enemy",
-          min: 2,
-          max: 3,
-        },
-        {
-          unitType: "cats/cats.units/Chaser enemy",
-          min: 2,
-          max: 3,
-        },
-        {
-          unitType: "cats/cats.units/Spitter enemy",
-          min: 2,
-          max: 3,
-        },
-        {
-          unitType: "cats/cats.units/Tree",
-          min: 1,
-          max: 1,
-        },
-      ],
-    },
-    {
-      id: 4,
-      name: "cat4",
-      spawnInterval: 1,
-      numSpawns: 5,
-      spawns: [
-        {
-          unitType: "cats/cats.units/Baby enemy",
-          min: 1,
-          max: 4,
-        },
-        {
-          unitType: "cats/cats.units/Chaser enemy",
-          min: 2,
-          max: 3,
-        },
-        {
-          unitType: "cats/cats.units/Spitter enemy",
-          min: 2,
-          max: 3,
-        },
-        {
-          unitType: "cats/cats.units/Pursuer enemy",
-          min: 1,
-          max: 2,
-        },
-        {
-          unitType: "cats/cats.units/Tree",
-          min: 1,
-          max: 1,
-        },
-      ],
-    },
-    {
-      id: 5,
-      name: "cat5",
-      spawnInterval: 1,
-      numSpawns: 2,
-      spawns: [
-        {
-          unitType: "cats/cats.units/Baby enemy",
-          min: 5,
-          max: 10,
-        },
-        {
-          unitType: "cats/cats.units/Tree",
-          min: 1,
-          max: 2,
-        },
-      ],
-    },
-    {
-      id: 6,
-      name: "cat6",
-      spawnInterval: 1,
-      numSpawns: 2,
-      spawns: [
-        {
-          unitType: "cats/cats.units/Spitter enemy",
-          min: 4,
-          max: 8,
-        },
-        {
-          unitType: "cats/cats.units/Tree",
-          min: 1,
-          max: 2,
-        },
-      ],
-    },
-    {
-      id: 7,
-      name: "cat7",
-      spawnInterval: 1,
-      numSpawns: 4,
-      spawns: [
-        {
-          unitType: "cats/cats.units/Chaser enemy",
-          min: 2,
-          max: 3,
-        },
-        {
-          unitType: "cats/cats.units/Pursuer enemy",
-          min: 1,
-          max: 2,
-        },
-        {
-          unitType: "cats/cats.units/Bruiser enemy",
-          min: 1,
-          max: 1,
-        },
-        {
-          unitType: "cats/cats.units/Tree",
-          min: 1,
-          max: 3,
-        },
-      ],
-    },
-  ],
+  cat2: {
+    meta: { type: "WaveType" },
+    id: 2,
+    name: "cat2",
+    spawnInterval: 1,
+    numSpawns: 3,
+    spawns: [
+      {
+        unitType: "cats/cats.units/baby_enemy",
+        min: 1,
+        max: 2,
+      },
+      {
+        unitType: "cats/cats.units/chaser_enemy",
+        min: 2,
+        max: 3,
+      },
+      {
+        unitType: "cats/cats.units/tree",
+        min: 1,
+        max: 1,
+      },
+    ],
+  },
+  cat3: {
+    meta: { type: "WaveType" },
+    id: 3,
+    name: "cat3",
+    spawnInterval: 1,
+    numSpawns: 4,
+    spawns: [
+      {
+        unitType: "cats/cats.units/baby_enemy",
+        min: 2,
+        max: 3,
+      },
+      {
+        unitType: "cats/cats.units/chaser_enemy",
+        min: 2,
+        max: 3,
+      },
+      {
+        unitType: "cats/cats.units/spitter_enemy",
+        min: 2,
+        max: 3,
+      },
+      {
+        unitType: "cats/cats.units/tree",
+        min: 1,
+        max: 1,
+      },
+    ],
+  },
+  cat4: {
+    meta: { type: "WaveType" },
+    id: 4,
+    name: "cat4",
+    spawnInterval: 1,
+    numSpawns: 5,
+    spawns: [
+      {
+        unitType: "cats/cats.units/baby_enemy",
+        min: 1,
+        max: 4,
+      },
+      {
+        unitType: "cats/cats.units/chaser_enemy",
+        min: 2,
+        max: 3,
+      },
+      {
+        unitType: "cats/cats.units/spitter_enemy",
+        min: 2,
+        max: 3,
+      },
+      {
+        unitType: "cats/cats.units/pursuer_enemy",
+        min: 1,
+        max: 2,
+      },
+      {
+        unitType: "cats/cats.units/tree",
+        min: 1,
+        max: 1,
+      },
+    ],
+  },
+  cat5: {
+    meta: { type: "WaveType" },
+    id: 5,
+    name: "cat5",
+    spawnInterval: 1,
+    numSpawns: 2,
+    spawns: [
+      {
+        unitType: "cats/cats.units/baby_enemy",
+        min: 5,
+        max: 10,
+      },
+      {
+        unitType: "cats/cats.units/tree",
+        min: 1,
+        max: 2,
+      },
+    ],
+  },
+  cat6: {
+    meta: { type: "WaveType" },
+    id: 6,
+    name: "cat6",
+    spawnInterval: 1,
+    numSpawns: 2,
+    spawns: [
+      {
+        unitType: "cats/cats.units/spitter_enemy",
+        min: 4,
+        max: 8,
+      },
+      {
+        unitType: "cats/cats.units/tree",
+        min: 1,
+        max: 2,
+      },
+    ],
+  },
+  cat7: {
+    meta: { type: "WaveType" },
+    id: 7,
+    name: "cat7",
+    spawnInterval: 1,
+    numSpawns: 4,
+    spawns: [
+      {
+        unitType: "cats/cats.units/chaser_enemy",
+        min: 2,
+        max: 3,
+      },
+      {
+        unitType: "cats/cats.units/pursuer_enemy",
+        min: 1,
+        max: 2,
+      },
+      {
+        unitType: "cats/cats.units/bruiser_enemy",
+        min: 1,
+        max: 1,
+      },
+      {
+        unitType: "cats/cats.units/tree",
+        min: 1,
+        max: 3,
+      },
+    ],
+  },
 }

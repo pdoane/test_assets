@@ -1,451 +1,492 @@
 {
-    "meta": {
-        "comment": "",
-        "type": "Items",
-        "version": 1,
-        "assets": "assets",        
+  sticky_tongue: {
+    meta: { type: "ItemType" },
+    iconId: 1,
+    name: "Sticky Tongue",
+    cost: 25,
+    attributes: {
+      pickupRange: 0.3,
     },
-    "assets": [
-        {
-            "iconId": 1,
-            "name": "Sticky Tongue",
-            "cost": 25,
-            "attributes": {
-                "pickupRange": 0.3
-            }
-        },
-        {
-            "iconId": 2,
-            "name": "Sticky Worm",
-            "cost": 15,
-            "attributes": {
-                "healthMax": 3.0,
-                "healthRegen": 2.0,
-                "healthFromConsumables": -1.0
-            }
-        },
-        {
-            "iconId": 3,
-            "name": "Baby Lizard",
-            "cost": 18,
-            "limit": 5,
-            "attributes": {
-                "range": 0.1,
-                "attractMaterialChance": 0.2
-            }
-        },
-        {
-            "iconId": 4,
-            "name": "Bag",
-            "cost": 15,
-            "limit": 3,
-            "attributes": {
-                "speed": -0.01,
-                "extraCrateMaterials": 15.0
-            }
-        },
-        {
-            "iconId": 5,
-            "name": "Bat",
-            "cost": 20,
-            "attributes": {
-                "lifeSteal": 0.02,
-                "harvesting": -2.0
-            }
-        },
-        {
-            "iconId": 6,
-            "name": "Beanie",
-            "cost": 20,
-            "attributes": {
-                "range": 0.06,
-                "speed": 0.04
-            }
-        },
-        {
-            "iconId": 7,
-            "name": "Hot Water",
-            "cost": 30,
-            "attributes": {
-                "healthMax": -1.0,
-                "elementalDamage": 2.0
-            }
-        },
-        {
-            "iconId": 8,
-            "name": "Book",
-            "cost": 8,
-            "attributes": {
-                "engineering": 1.0
-            }
-        },
-        {
-            "iconId": 9,
-            "name": "Punching Glove",
-            "cost": 15,
-            "attributes": {
-                "knockback": 0.03
-            }
-        },
-        {
-            "iconId": 10,
-            "name": "Broken Teeth",
-            "cost": 25,
-            "attributes": {
-                "healthMax": 5.0,
-                "healthRegen": -1.0
-            }
-        },
-        {
-            "iconId": 11,
-            "name": "Butterfly",
-            "cost": 30,
-            "attributes": {
-                "lifeSteal": 0.02,
-                "elementalDamage": -1.0
-            }
-        },
-        {
-            "iconId": 12,
-            "name": "Cake",
-            "cost": 15,
-            "attributes": {
-                "healthMax": 3.0,
-                "damage": -0.01
-            }
-        },
-        {
-            "iconId": 13,
-            "name": "Coal",
-            "cost": 20,
-            "attributes": {
-                "meleeDamage": 2.0,
-                "elementalDamage": 1.0,
-                "harvesting": -1.0
-            }
-        },
-        {
-            "iconId": 14,
-            "name": "Spikey Tree",
-            "cost": 20,
-            "attributes": {
-                "healthMax": -1.0,
-                "meleeDamage": 1.0,
-                "critChance": 0.03
-            }
-        },
-        {
-            "iconId": 15,
-            "name": "Coffee",
-            "cost": 15,
-            "attributes": {
-                "damage": -0.01,
-                "attackSpeed": 0.1
-            }
-        },
-        {
-            "iconId": 16,
-            "name": "Coupon",
-            "cost": 15,
-            "limit": 5,
-            "attributes": {
-                "price": -0.05
-            }
-        },
-        {
-            "iconId": 17,
-            "name": "Ugly Monkey",
-            "cost": 25,
-            "limit": 13,
-            "attributes": {
-                "rangedDamage": -1.0,
-                "healOnPickupChance": 0.08
-            }
-        },
-        {
-            "iconId": 18,
-            "name": "Busted Steroids",
-            "cost": 20,
-            "attributes": {
-                "healthMax": 2.0,
-                "meleeDamage": 2.0,
-                "attackSpeed": -0.03
-            }
-        },
-        {
-            "iconId": 19,
-            "name": "Duct Tape",
-            "cost": 25,
-            "attributes": {
-                "healthMax": -2.0,
-                "armor": 1.0,
-                "engineering": 1.0
-            }
-        },
-        {
-            "iconId": 20,
-            "name": "Dynamite",
-            "cost": 20,
-            "attributes": {
-                "explosionDamage": 0.15
-            }
-        },
-        {
-            "iconId": 21,
-            "name": "Fertilizer",
-            "cost": 15,
-            "attributes": {
-                "meleeDamage": -1.0,
-                "harvesting": 8.0
-            }
-        },
-        {
-            "iconId": 22,
-            "name": "Subtle Alien",
-            "cost": 30,
-            "limit": 10,
-            "attributes": {
-                "healthMax": 2.0,
-                "damage": 0.05,
-                "enemies": -0.05
-            }
-        },
-        {
-            "iconId": 23,
-            "name": "Glasses",
-            "cost": 25,
-            "attributes": {
-                "range": 0.2
-            }
-        },
-        {
-            "iconId": 24,
-            "name": "Goat Skull",
-            "cost": 25,
-            "attributes": {
-                "meleeDamage": 3.0,
-                "critChance": -0.02
-            }
-        },
-        {
-            "iconId": 25,
-            "name": "Gummy Bear",
-            "cost": 25,
-            "attributes": {
-                "attackSpeed": 0.05,
-                "range": 0.15,
-                "armor": -1.0
-            }
-        },
-        {
-            "iconId": 26,
-            "name": "Head Bandage",
-            "cost": 25,
-            "attributes": {
-                "damage": 0.06,
-                "range": -0.08
-            }
-        },
-        {
-            "iconId": 27,
-            "name": "Hedgehog",
-            "cost": 30,
-            "attributes": {
-                "healthRegen": -1.0,
-                "meleeDamage": 2.0,
-                "rangedDamage": 1.0
-            }
-        },
-        {
-            "iconId": 28,
-            "name": "Helmet",
-            "cost": 25,
-            "attributes": {
-                "armor": 1.0,
-                "speed": -0.02
-            }
-        },
-        {
-            "iconId": 29,
-            "name": "Injection",
-            "cost": 20,
-            "attributes": {
-                "healthMax": -2.0,
-                "damage": 0.07
-            }
-        },
-        {
-            "iconId": 30,
-            "name": "Insanity",
-            "cost": 20,
-            "attributes": {
-                "damage": -0.03,
-                "critChance": 0.06
-            }
-        },
-        {
-            "iconId": 31,
-            "name": "Lemonade",
-            "cost": 15,
-            "attributes": {
-                "healthFromConsumables": 1.0
-            }
-        },
-        {
-            "iconId": 32,
-            "name": "Lens",
-            "cost": 20,
-            "attributes": {
-                "rangedDamage": 1.0,
-                "range": -0.05
-            }
-        },
-        {
-            "iconId": 33,
-            "name": "Lost Duck",
-            "cost": 25,
-            "attributes": {
-                "elementalDamage": -1.0,
-                "luck": 10.0
-            }
-        },
-        {
-            "iconId": 34,
-            "name": "Flannel Shirt",
-            "cost": 15,
-            "limit": 1,
-            "attributes": {
-                "treeDamage": 1.0
-            }
-        },
-        {
-            "iconId": 35,
-            "name": "Mushroom",
-            "cost": 25,
-            "attributes": {
-                "healthRegen": 3.0,
-                "luck": -2.0
-            }
-        },
-        {
-            "iconId": 36,
-            "name": "Happy Bee",
-            "cost": 25,
-            "attributes": {
-                "meleeDamage": -1.0,
-                "rangedDamage": 1.0,
-                "dodge": 0.04,
-                "harvesting": 4.0
-            }
-        },
-        {
-            "iconId": 37,
-            "name": "Magnet",
-            "cost": 18,
-            "attributes": {
-                "pickupRange": 0.1,
-                "attractMaterialChance": 0.1
-            }
-        },
-        {
-            "iconId": 38,
-            "name": "Pencil",
-            "cost": 15,
-            "attributes": {
-                "attackSpeed": -0.01,
-                "critChance": -0.01,
-                "engineering": 2.0
-            }
-        },
-        {
-            "iconId": 39,
-            "name": "Plant",
-            "cost": 10,
-            "attributes": {
-                "healthRegen": 3.0,
-                "lifeSteal": -0.01
-            }
-        },
-        {
-            "iconId": 40,
-            "name": "Spinning Hat",
-            "cost": 28,
-            "attributes": {
-                "damage": -0.02,
-                "luck": 10.0
-            }
-        },
-        {
-            "iconId": 41,
-            "name": "Rusty Sword",
-            "cost": 20,
-            "attributes": {
-                "meleeDamage": 2.0,
-                "attackSpeed": -0.02
-            }
-        },
-        {
-            "iconId": 42,
-            "name": "Scar",
-            "cost": 30,
-            "attributes": {
-                "range": -0.08,
-                "experienceGain": 0.2
-            }
-        },
-        {
-            "iconId": 43,
-            "name": "Pointy Bullet",
-            "cost": 25,
-            "limit": 1,
-            "attributes": {
-                "damage": -0.05,
-                "piercingDamage": -0.2,
-                "piercingTargets": 1.0
-            }
-        },
-        {
-            "iconId": 44,
-            "name": "Scared Onion",
-            "cost": 15,
-            "attributes": {
-                "speed": 0.04,
-                "luck": -6.0
-            }
-        },
-        {
-            "iconId": 45,
-            "name": "Toxic Sludge",
-            "cost": 20,
-            "limit": 1,
-            "attributes": {
-                "elementalDamage": 2.0,
-                "dodge": -0.02
-            }
-        },
-        {
-            "iconId": 46,
-            "name": "Tree",
-            "cost": 15,
-            "attributes": {
-                "trees": 1.0
-            }
-        },
-        {
-            "iconId": 47,
-            "name": "Turret",
-            "cost": 15,
-            "attributes": {
-                "turret": 1.0
-            }
-        },
-        {
-            "iconId": 48,
-            "name": "Crazy food",
-            "cost": 20,
-            "attributes": {
-                "dodge": -0.02,
-                "healthFromConsumables": 2.0
-            }
-        }
-    ]
+  },
+  sticky_worm: {
+    meta: { type: "ItemType" },
+    iconId: 2,
+    name: "Sticky Worm",
+    cost: 15,
+    attributes: {
+      healthMax: 3.0,
+      healthRegen: 2.0,
+      healthFromConsumables: -1.0,
+    },
+  },
+  baby_lizard: {
+    meta: { type: "ItemType" },
+    iconId: 3,
+    name: "Baby Lizard",
+    cost: 18,
+    limit: 5,
+    attributes: {
+      range: 0.1,
+      attractMaterialChance: 0.2,
+    },
+  },
+  bag: {
+    meta: { type: "ItemType" },
+    iconId: 4,
+    name: "Bag",
+    cost: 15,
+    limit: 3,
+    attributes: {
+      speed: -0.01,
+      extraCrateMaterials: 15.0,
+    },
+  },
+  bat: {
+    meta: { type: "ItemType" },
+    iconId: 5,
+    name: "Bat",
+    cost: 20,
+    attributes: {
+      lifeSteal: 0.02,
+      harvesting: -2.0,
+    },
+  },
+  beanie: {
+    meta: { type: "ItemType" },
+    iconId: 6,
+    name: "Beanie",
+    cost: 20,
+    attributes: {
+      range: 0.06,
+      speed: 0.04,
+    },
+  },
+  hot_water: {
+    meta: { type: "ItemType" },
+    iconId: 7,
+    name: "Hot Water",
+    cost: 30,
+    attributes: {
+      healthMax: -1.0,
+      elementalDamage: 2.0,
+    },
+  },
+  book: {
+    meta: { type: "ItemType" },
+    iconId: 8,
+    name: "Book",
+    cost: 8,
+    attributes: {
+      engineering: 1.0,
+    },
+  },
+  punching_glove: {
+    meta: { type: "ItemType" },
+    iconId: 9,
+    name: "Punching Glove",
+    cost: 15,
+    attributes: {
+      knockback: 0.03,
+    },
+  },
+  broken_teeth: {
+    meta: { type: "ItemType" },
+    iconId: 10,
+    name: "Broken Teeth",
+    cost: 25,
+    attributes: {
+      healthMax: 5.0,
+      healthRegen: -1.0,
+    },
+  },
+  butterfly: {
+    meta: { type: "ItemType" },
+    iconId: 11,
+    name: "Butterfly",
+    cost: 30,
+    attributes: {
+      lifeSteal: 0.02,
+      elementalDamage: -1.0,
+    },
+  },
+  cake: {
+    meta: { type: "ItemType" },
+    iconId: 12,
+    name: "Cake",
+    cost: 15,
+    attributes: {
+      healthMax: 3.0,
+      damage: -0.01,
+    },
+  },
+  coal: {
+    meta: { type: "ItemType" },
+    iconId: 13,
+    name: "Coal",
+    cost: 20,
+    attributes: {
+      meleeDamage: 2.0,
+      elementalDamage: 1.0,
+      harvesting: -1.0,
+    },
+  },
+  spikey_tree: {
+    meta: { type: "ItemType" },
+    iconId: 14,
+    name: "Spikey Tree",
+    cost: 20,
+    attributes: {
+      healthMax: -1.0,
+      meleeDamage: 1.0,
+      critChance: 0.03,
+    },
+  },
+  coffee: {
+    meta: { type: "ItemType" },
+    iconId: 15,
+    name: "Coffee",
+    cost: 15,
+    attributes: {
+      damage: -0.01,
+      attackSpeed: 0.1,
+    },
+  },
+  coupon: {
+    meta: { type: "ItemType" },
+    iconId: 16,
+    name: "Coupon",
+    cost: 15,
+    limit: 5,
+    attributes: {
+      price: -0.05,
+    },
+  },
+  ugly_monkey: {
+    meta: { type: "ItemType" },
+    iconId: 17,
+    name: "Ugly Monkey",
+    cost: 25,
+    limit: 13,
+    attributes: {
+      rangedDamage: -1.0,
+      healOnPickupChance: 0.08,
+    },
+  },
+  busted_steroids: {
+    meta: { type: "ItemType" },
+    iconId: 18,
+    name: "Busted Steroids",
+    cost: 20,
+    attributes: {
+      healthMax: 2.0,
+      meleeDamage: 2.0,
+      attackSpeed: -0.03,
+    },
+  },
+  duct_tape: {
+    meta: { type: "ItemType" },
+    iconId: 19,
+    name: "Duct Tape",
+    cost: 25,
+    attributes: {
+      healthMax: -2.0,
+      armor: 1.0,
+      engineering: 1.0,
+    },
+  },
+  dynamite: {
+    meta: { type: "ItemType" },
+    iconId: 20,
+    name: "Dynamite",
+    cost: 20,
+    attributes: {
+      explosionDamage: 0.15,
+    },
+  },
+  fertilizer: {
+    meta: { type: "ItemType" },
+    iconId: 21,
+    name: "Fertilizer",
+    cost: 15,
+    attributes: {
+      meleeDamage: -1.0,
+      harvesting: 8.0,
+    },
+  },
+  subtle_alien: {
+    meta: { type: "ItemType" },
+    iconId: 22,
+    name: "Subtle Alien",
+    cost: 30,
+    limit: 10,
+    attributes: {
+      healthMax: 2.0,
+      damage: 0.05,
+      enemies: -0.05,
+    },
+  },
+  glasses: {
+    meta: { type: "ItemType" },
+    iconId: 23,
+    name: "Glasses",
+    cost: 25,
+    attributes: {
+      range: 0.2,
+    },
+  },
+  goat_skull: {
+    meta: { type: "ItemType" },
+    iconId: 24,
+    name: "Goat Skull",
+    cost: 25,
+    attributes: {
+      meleeDamage: 3.0,
+      critChance: -0.02,
+    },
+  },
+  gummy_bear: {
+    meta: { type: "ItemType" },
+    iconId: 25,
+    name: "Gummy Bear",
+    cost: 25,
+    attributes: {
+      attackSpeed: 0.05,
+      range: 0.15,
+      armor: -1.0,
+    },
+  },
+  head_bandage: {
+    meta: { type: "ItemType" },
+    iconId: 26,
+    name: "Head Bandage",
+    cost: 25,
+    attributes: {
+      damage: 0.06,
+      range: -0.08,
+    },
+  },
+  hedgehog: {
+    meta: { type: "ItemType" },
+    iconId: 27,
+    name: "Hedgehog",
+    cost: 30,
+    attributes: {
+      healthRegen: -1.0,
+      meleeDamage: 2.0,
+      rangedDamage: 1.0,
+    },
+  },
+  helmet: {
+    meta: { type: "ItemType" },
+    iconId: 28,
+    name: "Helmet",
+    cost: 25,
+    attributes: {
+      armor: 1.0,
+      speed: -0.02,
+    },
+  },
+  injection: {
+    meta: { type: "ItemType" },
+    iconId: 29,
+    name: "Injection",
+    cost: 20,
+    attributes: {
+      healthMax: -2.0,
+      damage: 0.07,
+    },
+  },
+  insanity: {
+    meta: { type: "ItemType" },
+    iconId: 30,
+    name: "Insanity",
+    cost: 20,
+    attributes: {
+      damage: -0.03,
+      critChance: 0.06,
+    },
+  },
+  lemonade: {
+    meta: { type: "ItemType" },
+    iconId: 31,
+    name: "Lemonade",
+    cost: 15,
+    attributes: {
+      healthFromConsumables: 1.0,
+    },
+  },
+  lens: {
+    meta: { type: "ItemType" },
+    iconId: 32,
+    name: "Lens",
+    cost: 20,
+    attributes: {
+      rangedDamage: 1.0,
+      range: -0.05,
+    },
+  },
+  lost_duck: {
+    meta: { type: "ItemType" },
+    iconId: 33,
+    name: "Lost Duck",
+    cost: 25,
+    attributes: {
+      elementalDamage: -1.0,
+      luck: 10.0,
+    },
+  },
+  flannel_shirt: {
+    meta: { type: "ItemType" },
+    iconId: 34,
+    name: "Flannel Shirt",
+    cost: 15,
+    limit: 1,
+    attributes: {
+      treeDamage: 1.0,
+    },
+  },
+  mushroom: {
+    meta: { type: "ItemType" },
+    iconId: 35,
+    name: "Mushroom",
+    cost: 25,
+    attributes: {
+      healthRegen: 3.0,
+      luck: -2.0,
+    },
+  },
+  happy_bee: {
+    meta: { type: "ItemType" },
+    iconId: 36,
+    name: "Happy Bee",
+    cost: 25,
+    attributes: {
+      meleeDamage: -1.0,
+      rangedDamage: 1.0,
+      dodge: 0.04,
+      harvesting: 4.0,
+    },
+  },
+  magnet: {
+    meta: { type: "ItemType" },
+    iconId: 37,
+    name: "Magnet",
+    cost: 18,
+    attributes: {
+      pickupRange: 0.1,
+      attractMaterialChance: 0.1,
+    },
+  },
+  pencil: {
+    meta: { type: "ItemType" },
+    iconId: 38,
+    name: "Pencil",
+    cost: 15,
+    attributes: {
+      attackSpeed: -0.01,
+      critChance: -0.01,
+      engineering: 2.0,
+    },
+  },
+  plant: {
+    meta: { type: "ItemType" },
+    iconId: 39,
+    name: "Plant",
+    cost: 10,
+    attributes: {
+      healthRegen: 3.0,
+      lifeSteal: -0.01,
+    },
+  },
+  spinning_hat: {
+    meta: { type: "ItemType" },
+    iconId: 40,
+    name: "Spinning Hat",
+    cost: 28,
+    attributes: {
+      damage: -0.02,
+      luck: 10.0,
+    },
+  },
+  rusty_sword: {
+    meta: { type: "ItemType" },
+    iconId: 41,
+    name: "Rusty Sword",
+    cost: 20,
+    attributes: {
+      meleeDamage: 2.0,
+      attackSpeed: -0.02,
+    },
+  },
+  scar: {
+    meta: { type: "ItemType" },
+    iconId: 42,
+    name: "Scar",
+    cost: 30,
+    attributes: {
+      range: -0.08,
+      experienceGain: 0.2,
+    },
+  },
+  pointy_bullet: {
+    meta: { type: "ItemType" },
+    iconId: 43,
+    name: "Pointy Bullet",
+    cost: 25,
+    limit: 1,
+    attributes: {
+      damage: -0.05,
+      piercingDamage: -0.2,
+      piercingTargets: 1.0,
+    },
+  },
+  scared_onion: {
+    meta: { type: "ItemType" },
+    iconId: 44,
+    name: "Scared Onion",
+    cost: 15,
+    attributes: {
+      speed: 0.04,
+      luck: -6.0,
+    },
+  },
+  toxic_sludge: {
+    meta: { type: "ItemType" },
+    iconId: 45,
+    name: "Toxic Sludge",
+    cost: 20,
+    limit: 1,
+    attributes: {
+      elementalDamage: 2.0,
+      dodge: -0.02,
+    },
+  },
+  tree: {
+    meta: { type: "ItemType" },
+    iconId: 46,
+    name: "Tree",
+    cost: 15,
+    attributes: {
+      trees: 1.0,
+    },
+  },
+  turret: {
+    meta: { type: "ItemType" },
+    iconId: 47,
+    name: "Turret",
+    cost: 15,
+    attributes: {
+      turret: 1.0,
+    },
+  },
+  crazy_food: {
+    meta: { type: "ItemType" },
+    iconId: 48,
+    name: "Crazy food",
+    cost: 20,
+    attributes: {
+      dodge: -0.02,
+      healthFromConsumables: 2.0,
+    },
+  },
+}
