@@ -1,0 +1,47 @@
+// Copyright Peregrine Software, LLC
+
+bindings Args
+{
+    [[vertex]] Buffer<packed_float3> positions;
+    [[vertex]] Buffer<packed_float2> texCoords;
+    [[vertex]] Buffer<uint> colors;
+    [[vertex]] float4x4 mvp;
+    [[fragment]] float4 diffuse;
+    [[fragment]] Texture2D tex;
+    [[fragment]] u32 swizzle;
+    [[fragment]] Sampler linearSampler = {
+        .address = clampToEdge,
+        .filter = linear,
+    };
+};
+
+struct VertexOutput
+{
+    float4 position [[position]];
+    float2 texCoord [[user(0)]];
+    float4 color [[user(1)]];
+};
+
+[[vertex]] VertexOutput vertex_main(uint vertexId [[vertexId]])
+{
+    VertexOutput o;
+    o.position = mul(mvp, float4(positions[vertexId], 1.0));
+    o.texCoord = texCoords[vertexId];
+    o.color = unpackUnorm4x8ToFloat(colors[vertexId]);
+    return o;
+}
+
+[[fragment]] float4 fragment_main(VertexOutput i)
+{
+    float4 texel = tex.sample(linearSampler, i.texCoord);
+    if (swizzle == 1)
+        texel = float4(texel.rrr, 1);
+    else if (swizzle == 2)
+        texel = float4(texel.rrrg);
+
+    float distanceFromOutline = texel.a - 0.5;
+    float distanceChangePerFragment = length(float2(ddx(distanceFromOutline), ddy(distanceFromOutline)));
+    float alpha = smoothstep(-distanceChangePerFragment, distanceChangePerFragment, distanceFromOutline);
+
+    return float4(i.color.rgb, i.color.a*alpha);
+}
