@@ -1,0 +1,9 @@
+{
+  meta: {
+    comment: "default button",
+    type: "Texture",
+    version: 1,
+  },
+  type: "color",
+  images: [{ path: "fruit/tomato.png" }],
+}
